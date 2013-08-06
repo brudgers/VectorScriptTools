@@ -1,0 +1,5 @@
+PROCEDURE menu_Duplicate_Array;
+BEGIN
+DoMenuTextByName ('Duplicate Array',0);
+END;
+RUN (menu_Duplicate_Array);

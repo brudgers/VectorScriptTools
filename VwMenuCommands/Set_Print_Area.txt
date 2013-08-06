@@ -1,0 +1,5 @@
+PROCEDURE menu_Set_Print_Area;
+BEGIN
+DoMenuTextByName ('Set Print Area',0);
+END;
+RUN (menu_Set_Print_Area);

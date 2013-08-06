@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Quartz_Imaging;
+BEGIN
+SetPref(132, NOT GetPref(132));
+END;
+Run (toggle_pref_Use_Quartz_Imaging);

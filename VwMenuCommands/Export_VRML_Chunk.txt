@@ -1,0 +1,5 @@
+PROCEDURE menu_Export_VRML_Chunk;
+BEGIN
+DoMenuTextByName ('Export VRML Chunk',0);
+END;
+RUN (menu_Export_VRML_Chunk);

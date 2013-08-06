@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Custom_Move_Distance;
+BEGIN
+SetPref(136, NOT GetPref(136));
+END;
+Run (toggle_pref_Use_Custom_Move_Distance);

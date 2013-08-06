@@ -1,0 +1,5 @@
+procedure doing;
+begin
+domenutextbyname ('renderworks render chunk', 14);
+end;
+run (doing);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Scale_Objects;
+BEGIN
+DoMenuTextByName ('Scale Objects',0);
+END;
+RUN (menu_Scale_Objects);

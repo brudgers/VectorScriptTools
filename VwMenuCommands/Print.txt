@@ -1,0 +1,5 @@
+PROCEDURE menu_Print;
+BEGIN
+DoMenuTextByName ('Print',0);
+END;
+RUN (menu_Print);

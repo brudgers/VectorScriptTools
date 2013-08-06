@@ -1,0 +1,29 @@
+{This procedure runs an alert whenever it is executed in the last 40 seconds of the minute}
+{It's probably less than optimized }
+{It also depends on the undocumented fact that Vectorworks returns the Date in US format}
+
+Procedure Democode;
+
+var
+	strTime : string;
+	strTest : string;
+	intTest : integer;
+	intLen : integer;
+	status : boolean; {for openURL call}
+Begin
+	strTime := Date (2,2);
+	{message (strTime);  				THIS LINE FOR TESTING - LETS YOU MAKE SURE IT'S WORKING}
+	intLen := Len (strTime);
+	
+	{Check for Time ends 40-49 seconds and run popup if it is}
+	strTest := copy (strTime, (intLen - 4), 1);
+	If str2num (strTest) = 4 Then
+	AlrtDialog ('Demo Version:  Purchase Full Version at KludgeCode.com');
+	
+	{Check for Time ends with 4 minutes and open URL if it is}
+	strTest := copy (strTime, (intLen - 5), 1);
+	If str2num (strTest) = 4 Then
+	status := OpenURL ('http://www.kludgecode.com');
+	
+	
+End;

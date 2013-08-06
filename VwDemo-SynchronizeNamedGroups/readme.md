@@ -1,0 +1,1 @@
+VwDemoSynchronizeNamedGroups is unfinished. The idea is to allow one group with a name to be updated to match another - or copied. An interesting idea which got bogged down in the creation of dialogs. Maybe you will find something useful in it.

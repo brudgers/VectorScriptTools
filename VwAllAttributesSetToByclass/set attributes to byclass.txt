@@ -1,0 +1,10 @@
+Procedure set_to_byclass(h1 : Handle);
+	Begin
+			Setfillcolorbyclass (h1);
+			SetFPatbyClass (h1);
+			SetLSbyClass (h1);
+			SetLWbyClass (h1);
+			SetMarkerByClass (h1);
+			SetOpacityByClass (h1);
+			SetPenColorByClass (h1);
+	End;

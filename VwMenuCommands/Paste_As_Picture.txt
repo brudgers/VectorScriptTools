@@ -1,0 +1,5 @@
+PROCEDURE menu_Paste_As_Picture;
+BEGIN
+DoMenuTextByName ('Paste As Picture',0);
+END;
+RUN (menu_Paste_As_Picture);

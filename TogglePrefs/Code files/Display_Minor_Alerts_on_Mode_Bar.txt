@@ -1,0 +1,5 @@
+Procedure toggle_pref_Display_Minor_Alerts_on_Mode_Bar;
+BEGIN
+SetPref(27, NOT GetPref(27));
+END;
+Run (toggle_pref_Display_Minor_Alerts_on_Mode_Bar);

@@ -1,0 +1,5 @@
+Procedure toggle_pref_Print_Grid;
+BEGIN
+SetPref(36, NOT GetPref(36));
+END;
+Run (toggle_pref_Print_Grid);

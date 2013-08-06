@@ -1,0 +1,100 @@
+{DEMO VERSION}
+{DEMO VERSION}
+{DEMO VERSION}
+Procedure KludgeMACRO;
+
+Label 900, 1000;
+
+Type
+	ParamStruct = Structure
+		TFignore			: real; 	{True if nonzero - ignore this line}
+		comString 		: string;  	{the menu command}
+		comIndex		: integer;	{command index}
+		TFterminate 		: real;		{True if nonzero terminate after this command}
+	End;
+
+Var
+	AParam 		: DynArray [] of ParamStruct;
+	i			: Integer;
+	numRows	: integer;
+	numColumns	: integer;
+	wshandle  	: handle;
+	wsName		: string;
+	wsCellvalue	: Real;
+	wsCellstring: string;
+
+
+Procedure RunMenuCommand;
+		Begin
+			DoMenutextbyname (AParam[i].comstring, AParam[i].comIndex);
+		End;
+
+Function GetRealfromworksheet (IndexColumn : Integer) : REAL;
+		Begin
+			GetWSCellValue (wsHandle, i, Indexcolumn, wsCellvalue);
+			GetRealfromworksheet := wsCellvalue;
+		End;
+		
+Function GetStringfromworksheet (IndexColumn : Integer) : String;
+		Begin
+			GetWSCellString (wsHandle, i, Indexcolumn, wsCellstring);
+			GetStringfromworksheet := wsCellString;
+		End;
+
+
+		
+Procedure LoadStructures;
+		Begin
+			Allocate Aparam [1..numRows];
+			For i :=2  to numRows Do
+			Begin
+					Aparam[i].TFignore 		:= GetRealfromworksheet(1);
+					Aparam[i].comstring		:= GetStringfromworksheet(2);
+					Aparam[i].comindex		:= GetRealfromworksheet(3);
+					Aparam[i].TFterminate		:= GetRealfromworksheet(4);
+			End;
+		End;
+		
+Procedure Getworksheethandle;
+		Begin
+			wsName := 'KludgeWorksheet';
+			wsHandle := getObject(wsName);
+		End;
+	
+Begin
+	AlrtDialog ('DEMO VERSION:  Will only process first 4 rows of arguements');
+	AlrtDialog ('Full version will process as many arguement Rows as Vectorworks will allow');
+	AlrtDialog ('Full version does not have delays and pop-ups');
+	AlrtDialog ('Wait 12 seconds');
+	Wait (12);
+	AlrtDialog ('WAIT OVER:  For full version pricing and info - email Payments@kludgecode.com');
+	AlrtDialog ('Wait 12 seconds');
+	Wait (12);
+	
+	
+	GetworksheetHandle; {sets wsHandle}
+	GetWSRowColumnCount (wsHandle, numRows, numColumns);
+	If (numRows<5) then
+		Begin
+			AlrtDialog ('KludgeWorksheet must have at least five rows in Demo Version');
+			AlrtDialog ('ENDING KludgeOMatic');
+			Goto 1000;
+		End;
+	LoadStructures;
+	i := 2;
+	While i < 6 Do
+		Begin
+			If (Aparam[i].TFignore > 0) Then GOTO 900;
+			RunMenuCommand;
+			If (Aparam[i].TFterminate > 0) Then i := numrows+1;
+			900:  i := i+1;
+			AlrtDialog ('Wait 6 seconds');
+			Wait(6);
+		End;
+	
+AlrtDialog ('Wait 6 seconds to execute');
+Wait (6);
+1000 : Settool(-240); 			{call select tool}
+		
+End;
+Run (KludgeMACRO);

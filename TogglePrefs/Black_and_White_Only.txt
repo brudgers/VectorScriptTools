@@ -1,0 +1,5 @@
+Procedure toggle_pref_Black_and_White_Only;
+BEGIN
+SetPref(10, NOT GetPref(10));
+END;
+Run (toggle_pref_Black_and_White_Only);

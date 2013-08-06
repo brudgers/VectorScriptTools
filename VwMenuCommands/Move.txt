@@ -1,0 +1,5 @@
+PROCEDURE menu_Move;
+BEGIN
+DoMenuTextByName ('Move',0);
+END;
+RUN (menu_Move);

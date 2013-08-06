@@ -1,0 +1,5 @@
+PROCEDURE menu_Extrude_and_Edit;
+BEGIN
+DoMenuTextByName ('Extrude and Edit',0);
+END;
+RUN (menu_Extrude_and_Edit);

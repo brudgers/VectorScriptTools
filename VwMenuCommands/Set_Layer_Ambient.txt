@@ -1,0 +1,5 @@
+PROCEDURE menu_Set_Layer_Ambient;
+BEGIN
+DoMenuTextByName ('Set Layer Ambient',0);
+END;
+RUN (menu_Set_Layer_Ambient);

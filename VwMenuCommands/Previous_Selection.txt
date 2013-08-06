@@ -1,0 +1,5 @@
+PROCEDURE menu_Previous_Selection;
+BEGIN
+DoMenuTextByName ('Previous Selection',0);
+END;
+RUN (menu_Previous_Selection);

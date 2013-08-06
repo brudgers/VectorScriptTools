@@ -1,0 +1,5 @@
+Procedure toggle_pref_Associate_Dimensions;
+BEGIN
+SetPref(28, NOT GetPref(28));
+END;
+Run (toggle_pref_Associate_Dimensions);

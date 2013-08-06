@@ -1,0 +1,5 @@
+PROCEDURE menu_Flip_Horizontal;
+BEGIN
+DoMenuTextByName ('Flip Horizontal',0);
+END;
+RUN (menu_Flip_Horizontal);

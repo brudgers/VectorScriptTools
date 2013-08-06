@@ -1,0 +1,5 @@
+PROCEDURE menu_Undo;
+BEGIN
+DoMenuTextByName ('Undo',0);
+END;
+RUN (menu_Undo);

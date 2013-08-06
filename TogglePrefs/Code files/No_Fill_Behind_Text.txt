@@ -1,0 +1,5 @@
+Procedure toggle_pref_No_Fill_Behind_Text;
+BEGIN
+SetPref(8, NOT GetPref(8));
+END;
+Run (toggle_pref_No_Fill_Behind_Text);

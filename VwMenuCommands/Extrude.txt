@@ -1,0 +1,5 @@
+PROCEDURE menu_Extrude;
+BEGIN
+DoMenuTextByName ('Extrude',0);
+END;
+RUN (menu_Extrude);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Set_Size;
+BEGIN
+DoMenuTextByName ('Set Size',0);
+END;
+RUN (menu_Set_Size);

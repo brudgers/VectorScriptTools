@@ -1,0 +1,5 @@
+Procedure toggle_pref_Auto_File_Extensions_On_Mac;
+BEGIN
+SetPref(131, NOT GetPref(131));
+END;
+Run (toggle_pref_Auto_File_Extensions_On_Mac);

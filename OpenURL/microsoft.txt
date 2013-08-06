@@ -1,0 +1,9 @@
+Procedure microsoft_url;
+VAR
+status : boolean;
+urlstring : string;
+Begin
+urlstring := 'http:\\www.microsoft.com';
+status:= OpenURL(urlstring);
+End;
+{Run (microsoft_url);}

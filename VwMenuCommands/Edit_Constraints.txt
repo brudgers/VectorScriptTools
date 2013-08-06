@@ -1,0 +1,5 @@
+PROCEDURE menu_Edit_Constraints;
+BEGIN
+DoMenuTextByName ('Edit Constraints',0);
+END;
+RUN (menu_Edit_Constraints);

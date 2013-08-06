@@ -1,0 +1,5 @@
+Procedure toggle_pref_Snap_to_Edge_Points;
+BEGIN
+SetPref(48, NOT GetPref(48));
+END;
+Run (toggle_pref_Snap_to_Edge_Points);

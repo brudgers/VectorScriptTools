@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_Grid;
+BEGIN
+SetPref(35, NOT GetPref(35));
+END;
+Run (toggle_pref_Show_Grid);

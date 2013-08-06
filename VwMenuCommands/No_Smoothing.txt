@@ -1,0 +1,5 @@
+PROCEDURE menu_No_Smoothing;
+BEGIN
+DoMenuTextByName ('No Smoothing',0);
+END;
+RUN (menu_No_Smoothing);

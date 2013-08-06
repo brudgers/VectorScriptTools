@@ -1,0 +1,5 @@
+Procedure toggle_pref_Save_By_Time;
+BEGIN
+SetPref(39, NOT GetPref(39));
+END;
+Run (toggle_pref_Save_By_Time);

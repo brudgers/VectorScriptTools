@@ -1,0 +1,5 @@
+PROCEDURE menu_Import_EPSF;
+BEGIN
+DoMenuTextByName ('Import EPSF',0);
+END;
+RUN (menu_Import_EPSF);

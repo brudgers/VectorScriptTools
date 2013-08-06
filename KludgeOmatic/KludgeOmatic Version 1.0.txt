@@ -1,0 +1,79 @@
+Procedure KludgeMACRO;
+
+Label 900;
+
+Type
+	ParamStruct = Structure
+		TFignore			: real; 	{True if nonzero - ignore this line}
+		comString 		: string;  	{the menu command}
+		comIndex		: integer;	{command index}
+		TFterminate 		: real;		{True if nonzero terminate after this command}
+	End;
+
+Var
+	AParam 		: DynArray [] of ParamStruct;
+	i			: Integer;
+	numRows	: integer;
+	numColumns	: integer;
+	wshandle  	: handle;
+	wsName		: string;
+	wsCellvalue	: Real;
+	wsCellstring: string;
+
+
+Procedure RunMenuCommand;
+		Begin
+			DoMenutextbyname (AParam[i].comstring, AParam[i].comIndex);
+		End;
+
+Function GetRealfromworksheet (IndexColumn : Integer) : REAL;
+		Begin
+			GetWSCellValue (wsHandle, i, Indexcolumn, wsCellvalue);
+			GetRealfromworksheet := wsCellvalue;
+		End;
+		
+Function GetStringfromworksheet (IndexColumn : Integer) : String;
+		Begin
+			GetWSCellString (wsHandle, i, Indexcolumn, wsCellstring);
+			GetStringfromworksheet := wsCellString;
+		End;
+
+
+		
+Procedure LoadStructures;
+		Begin
+			Allocate Aparam [1..numRows];
+			For i :=2  to numRows Do
+			Begin
+					Aparam[i].TFignore 		:= GetRealfromworksheet(1);
+					Aparam[i].comstring		:= GetStringfromworksheet(2);
+					Aparam[i].comindex		:= GetRealfromworksheet(3);
+					Aparam[i].TFterminate		:= GetRealfromworksheet(4);
+			End;
+		End;
+		
+Procedure Getworksheethandle;
+		Begin
+			wsName := 'KludgeWorksheet';
+			wsHandle := getObject(wsName);
+		End;
+	
+Begin
+	GetworksheetHandle; {sets wsHandle}
+	message (getname(wsHandle));
+	GetWSRowColumnCount (wsHandle, numRows, numColumns);
+	LoadStructures;
+	i := 2;
+	While i < numRows+1 Do
+		Begin
+			If (Aparam[i].TFignore > 0) Then GOTO 900;
+			RunMenuCommand;
+			If (Aparam[i].TFterminate > 0) Then i := numrows+1;
+			900:  i := i+1;
+		End;
+	
+
+Settool(-240); 			{call select tool}
+		
+End;
+Run (KludgeMACRO);

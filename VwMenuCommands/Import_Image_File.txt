@@ -1,0 +1,5 @@
+PROCEDURE menu_Import_Image_File;
+BEGIN
+DoMenuTextByName ('Import Image File',0);
+END;
+RUN (menu_Import_Image_File);

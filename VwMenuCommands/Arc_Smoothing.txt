@@ -1,0 +1,5 @@
+PROCEDURE menu_Arc_Smoothing;
+BEGIN
+DoMenuTextByName ('Arc Smoothing',0);
+END;
+RUN (menu_Arc_Smoothing);

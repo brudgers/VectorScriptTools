@@ -1,0 +1,5 @@
+Procedure toggle_pref_Adjust_Flipped_Text;
+BEGIN
+SetPref(13, NOT GetPref(13));
+END;
+Run (toggle_pref_Adjust_Flipped_Text);

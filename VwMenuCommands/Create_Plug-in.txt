@@ -1,0 +1,5 @@
+PROCEDURE menu_Create_Plug-in;
+BEGIN
+DoMenuTextByName ('Create Plug-in',0);
+END;
+RUN (menu_Create_Plug-in);

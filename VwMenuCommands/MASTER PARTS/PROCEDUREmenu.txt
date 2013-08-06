@@ -1,0 +1,918 @@
+V:\vector Scripts\menu commands\Add_Surface.txt
+PROCEDURE menu_Add_Surface;
+BEGIN
+	DoMenuTextByName ('Add Surface',0);
+END;
+RUN (menu_Add_Surface);
+
+V:\vector Scripts\menu commands\Align_Objects.txt
+PROCEDURE menu_Align_Objects;
+BEGIN
+	DoMenuTextByName ('Align Objects',0);
+END;
+RUN (menu_Align_Objects);
+
+V:\vector Scripts\menu commands\Align_to_Grid.txt
+PROCEDURE menu_Align_to_Grid;
+BEGIN
+	DoMenuTextByName ('Align to Grid',0);
+END;
+RUN (menu_Align_to_Grid);
+
+V:\vector Scripts\menu commands\Application_Preferences.txt
+PROCEDURE menu_Application_Preferences;
+BEGIN
+	DoMenuTextByName ('Application Preferences',0);
+END;
+RUN (menu_Application_Preferences);
+
+V:\vector Scripts\menu commands\Arc_Smoothing.txt
+PROCEDURE menu_Arc_Smoothing;
+BEGIN
+	DoMenuTextByName ('Arc Smoothing',0);
+END;
+RUN (menu_Arc_Smoothing);
+
+V:\vector Scripts\menu commands\Arrow_Heads.txt
+PROCEDURE menu_Arrow_Heads;
+BEGIN
+	DoMenuTextByName ('Arrow Heads',0);
+END;
+RUN (menu_Arrow_Heads);
+
+V:\vector Scripts\menu commands\Bezier_Spline_Smoothing.txt
+PROCEDURE menu_Bezier_Spline_Smoothing;
+BEGIN
+	DoMenuTextByName ('Bezier Spline Smoothing',0);
+END;
+RUN (menu_Bezier_Spline_Smoothing);
+
+V:\vector Scripts\menu commands\Classes.txt
+PROCEDURE menu_Classes;
+BEGIN
+	DoMenuTextByName ('Classes',0);
+END;
+RUN (menu_Classes);
+
+V:\vector Scripts\menu commands\Clear.txt
+PROCEDURE menu_Clear;
+BEGIN
+	DoMenuTextByName ('Clear',0);
+END;
+RUN (menu_Clear);
+
+V:\vector Scripts\menu commands\Clip_Surface.txt
+PROCEDURE menu_Clip_Surface;
+BEGIN
+	DoMenuTextByName ('Clip Surface',0);
+END;
+RUN (menu_Clip_Surface);
+
+V:\vector Scripts\menu commands\Close.txt
+PROCEDURE menu_Close;
+BEGIN
+	DoMenuTextByName ('Close',0);
+END;
+RUN (menu_Close);
+
+V:\vector Scripts\menu commands\Color_Palette.txt
+PROCEDURE menu_Color_Palette;
+BEGIN
+	DoMenuTextByName ('Color Palette',0);
+END;
+RUN (menu_Color_Palette);
+
+V:\vector Scripts\menu commands\Column.txt
+PROCEDURE menu_Column;
+BEGIN
+	DoMenuTextByName ('Column',0);
+END;
+RUN (menu_Column);
+
+V:\vector Scripts\menu commands\Combine_Into_Surface.txt
+PROCEDURE menu_Combine_Into_Surface;
+BEGIN
+	DoMenuTextByName ('Combine Into Surface',0);
+END;
+RUN (menu_Combine_Into_Surface);
+
+V:\vector Scripts\menu commands\Compose_Curve.txt
+PROCEDURE menu_Compose_Curve;
+BEGIN
+	DoMenuTextByName ('Compose Curve',0);
+END;
+RUN (menu_Compose_Curve);
+
+V:\vector Scripts\menu commands\Convert_Copy_to_Lines.txt
+PROCEDURE menu_Convert_Copy_to_Lines;
+BEGIN
+	DoMenuTextByName ('Convert Copy to Lines',0);
+END;
+RUN (menu_Convert_Copy_to_Lines);
+
+V:\vector Scripts\menu commands\Convert_Copy_to_Polygons.txt
+PROCEDURE menu_Convert_Copy_to_Polygons;
+BEGIN
+	DoMenuTextByName ('Convert Copy to Polygons',0);
+END;
+RUN (menu_Convert_Copy_to_Polygons);
+
+V:\vector Scripts\menu commands\Convert_to_3D_Polys.txt
+PROCEDURE menu_Convert_to_3D_Polys;
+BEGIN
+	DoMenuTextByName ('Convert to 3D Polys',0);
+END;
+RUN (menu_Convert_to_3D_Polys);
+
+V:\vector Scripts\menu commands\Convert_to_Lines.txt
+PROCEDURE menu_Convert_to_Lines;
+BEGIN
+	DoMenuTextByName ('Convert to Lines',0);
+END;
+RUN (menu_Convert_to_Lines);
+
+V:\vector Scripts\menu commands\Convert_to_Mesh.txt
+PROCEDURE menu_Convert_to_Mesh;
+BEGIN
+	DoMenuTextByName ('Convert to Mesh',0);
+END;
+RUN (menu_Convert_to_Mesh);
+
+V:\vector Scripts\menu commands\Convert_To_NURBS.txt
+PROCEDURE menu_Convert_To_NURBS;
+BEGIN
+	DoMenuTextByName ('Convert To NURBS',0);
+END;
+RUN (menu_Convert_To_NURBS);
+
+V:\vector Scripts\menu commands\Convert_to_Polygons.txt
+PROCEDURE menu_Convert_to_Polygons;
+BEGIN
+	DoMenuTextByName ('Convert to Polygons',0);
+END;
+RUN (menu_Convert_to_Polygons);
+
+V:\vector Scripts\menu commands\Copy.txt
+PROCEDURE menu_Copy;
+BEGIN
+	DoMenuTextByName ('Copy',0);
+END;
+RUN (menu_Copy);
+
+V:\vector Scripts\menu commands\Create_Layer_Link.txt
+PROCEDURE menu_Create_Layer_Link;
+BEGIN
+	DoMenuTextByName ('Create Layer Link',0);
+END;
+RUN (menu_Create_Layer_Link);
+
+V:\vector Scripts\menu commands\Create_Plug-in.txt
+PROCEDURE menu_Create_Plug-in;
+BEGIN
+	DoMenuTextByName ('Create Plug-in',0);
+END;
+RUN (menu_Create_Plug-in);
+
+V:\vector Scripts\menu commands\Create_Report.txt
+PROCEDURE menu_Create_Report;
+BEGIN
+	DoMenuTextByName ('Create Report',0);
+END;
+RUN (menu_Create_Report);
+
+V:\vector Scripts\menu commands\Create_Symbol.txt
+PROCEDURE menu_Create_Symbol;
+BEGIN
+	DoMenuTextByName ('Create Symbol',0);
+END;
+RUN (menu_Create_Symbol);
+
+V:\vector Scripts\menu commands\Cubic_Spline_Smoothing.txt
+PROCEDURE menu_Cubic_Spline_Smoothing;
+BEGIN
+	DoMenuTextByName ('Cubic Spline Smoothing',0);
+END;
+RUN (menu_Cubic_Spline_Smoothing);
+
+V:\vector Scripts\menu commands\Custom_RW_Options_Chunk.txt
+PROCEDURE menu_Custom_RW_Options_Chunk;
+BEGIN
+	DoMenuTextByName ('Custom RW Options Chunk',0);
+END;
+RUN (menu_Custom_RW_Options_Chunk);
+
+V:\vector Scripts\menu commands\Custom_Selection.txt
+PROCEDURE menu_Custom_Selection;
+BEGIN
+	DoMenuTextByName ('Custom Selection',0);
+END;
+RUN (menu_Custom_Selection);
+
+V:\vector Scripts\menu commands\Custom_Tool/Attribute.txt
+PROCEDURE menu_Custom_Tool/Attribute;
+BEGIN
+	DoMenuTextByName ('Custom Tool/Attribute',0);
+END;
+RUN (menu_Custom_Tool/Attribute);
+
+V:\vector Scripts\menu commands\Custom_Visibility.txt
+PROCEDURE menu_Custom_Visibility;
+BEGIN
+	DoMenuTextByName ('Custom Visibility',0);
+END;
+RUN (menu_Custom_Visibility);
+
+V:\vector Scripts\menu commands\Cut.txt
+PROCEDURE menu_Cut;
+BEGIN
+	DoMenuTextByName ('Cut',0);
+END;
+RUN (menu_Cut);
+
+V:\vector Scripts\menu commands\Cut_2D_Section.txt
+PROCEDURE menu_Cut_2D_Section;
+BEGIN
+	DoMenuTextByName ('Cut 2D Section',0);
+END;
+RUN (menu_Cut_2D_Section);
+
+V:\vector Scripts\menu commands\Cut_3D_Section.txt
+PROCEDURE menu_Cut_3D_Section;
+BEGIN
+	DoMenuTextByName ('Cut 3D Section',0);
+END;
+RUN (menu_Cut_3D_Section);
+
+V:\vector Scripts\menu commands\Dash_Styles.txt
+PROCEDURE menu_Dash_Styles;
+BEGIN
+	DoMenuTextByName ('Dash Styles',0);
+END;
+RUN (menu_Dash_Styles);
+
+V:\vector Scripts\menu commands\Decompose_Curve.txt
+PROCEDURE menu_Decompose_Curve;
+BEGIN
+	DoMenuTextByName ('Decompose Curve',0);
+END;
+RUN (menu_Decompose_Curve);
+
+V:\vector Scripts\menu commands\Deselect_All.txt
+PROCEDURE menu_Deselect_All;
+BEGIN
+	DoMenuTextByName ('Deselect All',0);
+END;
+RUN (menu_Deselect_All);
+
+V:\vector Scripts\menu commands\Document_Preferences.txt
+PROCEDURE menu_Document_Preferences;
+BEGIN
+	DoMenuTextByName ('Document Preferences',0);
+END;
+RUN (menu_Document_Preferences);
+
+V:\vector Scripts\menu commands\Duplicate.txt
+PROCEDURE menu_Duplicate;
+BEGIN
+	DoMenuTextByName ('Duplicate',0);
+END;
+RUN (menu_Duplicate);
+
+V:\vector Scripts\menu commands\Duplicate_Array.txt
+PROCEDURE menu_Duplicate_Array;
+BEGIN
+	DoMenuTextByName ('Duplicate Array',0);
+END;
+RUN (menu_Duplicate_Array);
+
+V:\vector Scripts\menu commands\Edit_Constraints.txt
+PROCEDURE menu_Edit_Constraints;
+BEGIN
+	DoMenuTextByName ('Edit Constraints',0);
+END;
+RUN (menu_Edit_Constraints);
+
+V:\vector Scripts\menu commands\Export_Database.txt
+PROCEDURE menu_Export_Database;
+BEGIN
+	DoMenuTextByName ('Export Database',0);
+END;
+RUN (menu_Export_Database);
+
+V:\vector Scripts\menu commands\Export_DXF/DWG.txt
+PROCEDURE menu_Export_DXF/DWG;
+BEGIN
+	DoMenuTextByName ('Export DXF/DWG',0);
+END;
+RUN (menu_Export_DXF/DWG);
+
+V:\vector Scripts\menu commands\Export_EPSF.txt
+PROCEDURE menu_Export_EPSF;
+BEGIN
+	DoMenuTextByName ('Export EPSF',0);
+END;
+RUN (menu_Export_EPSF);
+
+V:\vector Scripts\menu commands\Export_Image_File.txt
+PROCEDURE menu_Export_Image_File;
+BEGIN
+	DoMenuTextByName ('Export Image File',0);
+END;
+RUN (menu_Export_Image_File);
+
+V:\vector Scripts\menu commands\Export_PICT.txt
+PROCEDURE menu_Export_PICT;
+BEGIN
+	DoMenuTextByName ('Export PICT',0);
+END;
+RUN (menu_Export_PICT);
+
+V:\vector Scripts\menu commands\Export_Simple_VectorScript_(3D_only).txt
+PROCEDURE menu_Export_Simple_VectorScript_(3D_only);
+BEGIN
+	DoMenuTextByName ('Export Simple VectorScript (3D only)',0);
+END;
+RUN (menu_Export_Simple_VectorScript_(3D_only));
+
+V:\vector Scripts\menu commands\Export_Text_Format.txt
+PROCEDURE menu_Export_Text_Format;
+BEGIN
+	DoMenuTextByName ('Export Text Format',0);
+END;
+RUN (menu_Export_Text_Format);
+
+V:\vector Scripts\menu commands\Export_VRML_Chunk.txt
+PROCEDURE menu_Export_VRML_Chunk;
+BEGIN
+	DoMenuTextByName ('Export VRML Chunk',0);
+END;
+RUN (menu_Export_VRML_Chunk);
+
+V:\vector Scripts\menu commands\Export_Worksheet.txt
+PROCEDURE menu_Export_Worksheet;
+BEGIN
+	DoMenuTextByName ('Export Worksheet',0);
+END;
+RUN (menu_Export_Worksheet);
+
+V:\vector Scripts\menu commands\Extrude.txt
+PROCEDURE menu_Extrude;
+BEGIN
+	DoMenuTextByName ('Extrude',0);
+END;
+RUN (menu_Extrude);
+
+V:\vector Scripts\menu commands\Extrude_and_Edit.txt
+PROCEDURE menu_Extrude_and_Edit;
+BEGIN
+	DoMenuTextByName ('Extrude and Edit',0);
+END;
+RUN (menu_Extrude_and_Edit);
+
+V:\vector Scripts\menu commands\Fit_to_Window.txt
+PROCEDURE menu_Fit_to_Window;
+BEGIN
+	DoMenuTextByName ('Fit to Window',0);
+END;
+RUN (menu_Fit_to_Window);
+
+V:\vector Scripts\menu commands\Flip_Horizontal.txt
+PROCEDURE menu_Flip_Horizontal;
+BEGIN
+	DoMenuTextByName ('Flip Horizontal',0);
+END;
+RUN (menu_Flip_Horizontal);
+
+V:\vector Scripts\menu commands\Flip_Vertical.txt
+PROCEDURE menu_Flip_Vertical;
+BEGIN
+	DoMenuTextByName ('Flip Vertical',0);
+END;
+RUN (menu_Flip_Vertical);
+
+V:\vector Scripts\menu commands\Floor.txt
+PROCEDURE menu_Floor;
+BEGIN
+	DoMenuTextByName ('Floor',0);
+END;
+RUN (menu_Floor);
+
+V:\vector Scripts\menu commands\Format_Text.txt
+PROCEDURE menu_Format_Text;
+BEGIN
+	DoMenuTextByName ('Format Text',0);
+END;
+RUN (menu_Format_Text);
+
+V:\vector Scripts\menu commands\Hatch.txt
+PROCEDURE menu_Hatch;
+BEGIN
+	DoMenuTextByName ('Hatch',0);
+END;
+RUN (menu_Hatch);
+
+V:\vector Scripts\menu commands\Import_DXF/DWG.txt
+PROCEDURE menu_Import_DXF/DWG;
+BEGIN
+	DoMenuTextByName ('Import DXF/DWG',0);
+END;
+RUN (menu_Import_DXF/DWG);
+
+V:\vector Scripts\menu commands\Import_EPSF.txt
+PROCEDURE menu_Import_EPSF;
+BEGIN
+	DoMenuTextByName ('Import EPSF',0);
+END;
+RUN (menu_Import_EPSF);
+
+V:\vector Scripts\menu commands\Import_Image_File.txt
+PROCEDURE menu_Import_Image_File;
+BEGIN
+	DoMenuTextByName ('Import Image File',0);
+END;
+RUN (menu_Import_Image_File);
+
+V:\vector Scripts\menu commands\Import_PICT.txt
+PROCEDURE menu_Import_PICT;
+BEGIN
+	DoMenuTextByName ('Import PICT',0);
+END;
+RUN (menu_Import_PICT);
+
+V:\vector Scripts\menu commands\Import_PICT_as_Picture.txt
+PROCEDURE menu_Import_PICT_as_Picture;
+BEGIN
+	DoMenuTextByName ('Import PICT as Picture',0);
+END;
+RUN (menu_Import_PICT_as_Picture);
+
+V:\vector Scripts\menu commands\Import_Text_Format.txt
+PROCEDURE menu_Import_Text_Format;
+BEGIN
+	DoMenuTextByName ('Import Text Format',0);
+END;
+RUN (menu_Import_Text_Format);
+
+V:\vector Scripts\menu commands\Import_Worksheet.txt
+PROCEDURE menu_Import_Worksheet;
+BEGIN
+	DoMenuTextByName ('Import Worksheet',0);
+END;
+RUN (menu_Import_Worksheet);
+
+V:\vector Scripts\menu commands\Intersect_Surface.txt
+PROCEDURE menu_Intersect_Surface;
+BEGIN
+	DoMenuTextByName ('Intersect Surface',0);
+END;
+RUN (menu_Intersect_Surface);
+
+V:\vector Scripts\menu commands\Layer_Scale.txt
+PROCEDURE menu_Layer_Scale;
+BEGIN
+	DoMenuTextByName ('Layer Scale',0);
+END;
+RUN (menu_Layer_Scale);
+
+V:\vector Scripts\menu commands\Layers.txt
+PROCEDURE menu_Layers;
+BEGIN
+	DoMenuTextByName ('Layers',0);
+END;
+RUN (menu_Layers);
+
+V:\vector Scripts\menu commands\Line_Thickness.txt
+PROCEDURE menu_Line_Thickness;
+BEGIN
+	DoMenuTextByName ('Line Thickness',0);
+END;
+RUN (menu_Line_Thickness);
+
+V:\vector Scripts\menu commands\Link_Text_to_Record.txt
+PROCEDURE menu_Link_Text_to_Record;
+BEGIN
+	DoMenuTextByName ('Link Text to Record',0);
+END;
+RUN (menu_Link_Text_to_Record);
+
+V:\vector Scripts\menu commands\Lock.txt
+PROCEDURE menu_Lock;
+BEGIN
+	DoMenuTextByName ('Lock',0);
+END;
+RUN (menu_Lock);
+
+V:\vector Scripts\menu commands\lower_case.txt
+PROCEDURE menu_lower_case;
+BEGIN
+	DoMenuTextByName ('lower case',0);
+END;
+RUN (menu_lower_case);
+
+V:\vector Scripts\menu commands\Move.txt
+PROCEDURE menu_Move;
+BEGIN
+	DoMenuTextByName ('Move',0);
+END;
+RUN (menu_Move);
+
+V:\vector Scripts\menu commands\Move_3D.txt
+PROCEDURE menu_Move_3D;
+BEGIN
+	DoMenuTextByName ('Move 3D',0);
+END;
+RUN (menu_Move_3D);
+
+V:\vector Scripts\menu commands\Move_Working_Plane.txt
+PROCEDURE menu_Move_Working_Plane;
+BEGIN
+	DoMenuTextByName ('Move Working Plane',0);
+END;
+RUN (menu_Move_Working_Plane);
+
+V:\vector Scripts\menu commands\Multiple_Extrude.txt
+PROCEDURE menu_Multiple_Extrude;
+BEGIN
+	DoMenuTextByName ('Multiple Extrude',0);
+END;
+RUN (menu_Multiple_Extrude);
+
+V:\vector Scripts\menu commands\Multiple_Extrude_and_Edit.txt
+PROCEDURE menu_Multiple_Extrude_and_Edit;
+BEGIN
+	DoMenuTextByName ('Multiple Extrude and Edit',0);
+END;
+RUN (menu_Multiple_Extrude_and_Edit);
+
+V:\vector Scripts\menu commands\New.txt
+PROCEDURE menu_New;
+BEGIN
+	DoMenuTextByName ('New',0);
+END;
+RUN (menu_New);
+
+V:\vector Scripts\menu commands\Next_View.txt
+PROCEDURE menu_Next_View;
+BEGIN
+	DoMenuTextByName ('Next View',0);
+END;
+RUN (menu_Next_View);
+
+V:\vector Scripts\menu commands\No_Smoothing.txt
+PROCEDURE menu_No_Smoothing;
+BEGIN
+	DoMenuTextByName ('No Smoothing',0);
+END;
+RUN (menu_No_Smoothing);
+
+V:\vector Scripts\menu commands\Normal_Scale.txt
+PROCEDURE menu_Normal_Scale;
+BEGIN
+	DoMenuTextByName ('Normal Scale',0);
+END;
+RUN (menu_Normal_Scale);
+
+V:\vector Scripts\menu commands\Open.txt
+PROCEDURE menu_Open;
+BEGIN
+	DoMenuTextByName ('Open',0);
+END;
+RUN (menu_Open);
+
+V:\vector Scripts\menu commands\Page_Setup.txt
+PROCEDURE menu_Page_Setup;
+BEGIN
+	DoMenuTextByName ('Page Setup',0);
+END;
+RUN (menu_Page_Setup);
+
+V:\vector Scripts\menu commands\Paste.txt
+PROCEDURE menu_Paste;
+BEGIN
+	DoMenuTextByName ('Paste',0);
+END;
+RUN (menu_Paste);
+
+V:\vector Scripts\menu commands\Paste_As_Picture.txt
+PROCEDURE menu_Paste_As_Picture;
+BEGIN
+	DoMenuTextByName ('Paste As Picture',0);
+END;
+RUN (menu_Paste_As_Picture);
+
+V:\vector Scripts\menu commands\Paste_In_Place.txt
+PROCEDURE menu_Paste_In_Place;
+BEGIN
+	DoMenuTextByName ('Paste In Place',0);
+END;
+RUN (menu_Paste_In_Place);
+
+V:\vector Scripts\menu commands\Patterns.txt
+PROCEDURE menu_Patterns;
+BEGIN
+	DoMenuTextByName ('Patterns',0);
+END;
+RUN (menu_Patterns);
+
+V:\vector Scripts\menu commands\Previous_Selection.txt
+PROCEDURE menu_Previous_Selection;
+BEGIN
+	DoMenuTextByName ('Previous Selection',0);
+END;
+RUN (menu_Previous_Selection);
+
+V:\vector Scripts\menu commands\Previous_View.txt
+PROCEDURE menu_Previous_View;
+BEGIN
+	DoMenuTextByName ('Previous View',0);
+END;
+RUN (menu_Previous_View);
+
+V:\vector Scripts\menu commands\Print.txt
+PROCEDURE menu_Print;
+BEGIN
+	DoMenuTextByName ('Print',0);
+END;
+RUN (menu_Print);
+
+V:\vector Scripts\menu commands\Properties.txt
+PROCEDURE menu_Properties;
+BEGIN
+	DoMenuTextByName ('Properties',0);
+END;
+RUN (menu_Properties);
+
+V:\vector Scripts\menu commands\Quit.txt
+PROCEDURE menu_Quit;
+BEGIN
+	DoMenuTextByName ('Quit',0);
+END;
+RUN (menu_Quit);
+
+V:\vector Scripts\menu commands\Redo.txt
+PROCEDURE menu_Redo;
+BEGIN
+	DoMenuTextByName ('Redo',0);
+END;
+RUN (menu_Redo);
+
+V:\vector Scripts\menu commands\Revert_To_Saved.txt
+PROCEDURE menu_Revert_To_Saved;
+BEGIN
+	DoMenuTextByName ('Revert To Saved',0);
+END;
+RUN (menu_Revert_To_Saved);
+
+V:\vector Scripts\menu commands\Roof_Face.txt
+PROCEDURE menu_Roof_Face;
+BEGIN
+	DoMenuTextByName ('Roof Face',0);
+END;
+RUN (menu_Roof_Face);
+
+V:\vector Scripts\menu commands\Rotate.txt
+PROCEDURE menu_Rotate;
+BEGIN
+	DoMenuTextByName ('Rotate',0);
+END;
+RUN (menu_Rotate);
+
+V:\vector Scripts\menu commands\Rotate_3D.txt
+PROCEDURE menu_Rotate_3D;
+BEGIN
+	DoMenuTextByName ('Rotate 3D',0);
+END;
+RUN (menu_Rotate_3D);
+
+V:\vector Scripts\menu commands\Rotate_3D_View.txt
+PROCEDURE menu_Rotate_3D_View;
+BEGIN
+	DoMenuTextByName ('Rotate 3D View',0);
+END;
+RUN (menu_Rotate_3D_View);
+
+V:\vector Scripts\menu commands\Rotate_Left_90.txt
+PROCEDURE menu_Rotate_Left_90;
+BEGIN
+	DoMenuTextByName ('Rotate Left 90',0);
+END;
+RUN (menu_Rotate_Left_90);
+
+V:\vector Scripts\menu commands\Rotate_Right_90.txt
+PROCEDURE menu_Rotate_Right_90;
+BEGIN
+	DoMenuTextByName ('Rotate Right 90',0);
+END;
+RUN (menu_Rotate_Right_90);
+
+V:\vector Scripts\menu commands\Rotate_Working_Plane.txt
+PROCEDURE menu_Rotate_Working_Plane;
+BEGIN
+	DoMenuTextByName ('Rotate Working Plane',0);
+END;
+RUN (menu_Rotate_Working_Plane);
+
+V:\vector Scripts\menu commands\Save.txt
+PROCEDURE menu_Save;
+BEGIN
+	DoMenuTextByName ('Save',0);
+END;
+RUN (menu_Save);
+
+V:\vector Scripts\menu commands\Save_As.txt
+PROCEDURE menu_Save_As;
+BEGIN
+	DoMenuTextByName ('Save As',0);
+END;
+RUN (menu_Save_As);
+
+V:\vector Scripts\menu commands\Save_As_Template.txt
+PROCEDURE menu_Save_As_Template;
+BEGIN
+	DoMenuTextByName ('Save As Template',0);
+END;
+RUN (menu_Save_As_Template);
+
+V:\vector Scripts\menu commands\Save_View.txt
+PROCEDURE menu_Save_View;
+BEGIN
+	DoMenuTextByName ('Save View',0);
+END;
+RUN (menu_Save_View);
+
+V:\vector Scripts\menu commands\Scale_Objects.txt
+PROCEDURE menu_Scale_Objects;
+BEGIN
+	DoMenuTextByName ('Scale Objects',0);
+END;
+RUN (menu_Scale_Objects);
+
+V:\vector Scripts\menu commands\Select_All.txt
+PROCEDURE menu_Select_All;
+BEGIN
+	DoMenuTextByName ('Select All',0);
+END;
+RUN (menu_Select_All);
+
+V:\vector Scripts\menu commands\Send_Backward.txt
+PROCEDURE menu_Send_Backward;
+BEGIN
+	DoMenuTextByName ('Send Backward',0);
+END;
+RUN (menu_Send_Backward);
+
+V:\vector Scripts\menu commands\Send_Forward.txt
+PROCEDURE menu_Send_Forward;
+BEGIN
+	DoMenuTextByName ('Send Forward',0);
+END;
+RUN (menu_Send_Forward);
+
+V:\vector Scripts\menu commands\Send_to_Back.txt
+PROCEDURE menu_Send_to_Back;
+BEGIN
+	DoMenuTextByName ('Send to Back',0);
+END;
+RUN (menu_Send_to_Back);
+
+V:\vector Scripts\menu commands\Send_to_Front.txt
+PROCEDURE menu_Send_to_Front;
+BEGIN
+	DoMenuTextByName ('Send to Front',0);
+END;
+RUN (menu_Send_to_Front);
+
+V:\vector Scripts\menu commands\Set_3D_View.txt
+PROCEDURE menu_Set_3D_View;
+BEGIN
+	DoMenuTextByName ('Set 3D View',0);
+END;
+RUN (menu_Set_3D_View);
+
+V:\vector Scripts\menu commands\Set_Grid.txt
+PROCEDURE menu_Set_Grid;
+BEGIN
+	DoMenuTextByName ('Set Grid',0);
+END;
+RUN (menu_Set_Grid);
+
+V:\vector Scripts\menu commands\Set_Layer_Ambient.txt
+PROCEDURE menu_Set_Layer_Ambient;
+BEGIN
+	DoMenuTextByName ('Set Layer Ambient',0);
+END;
+RUN (menu_Set_Layer_Ambient);
+
+V:\vector Scripts\menu commands\Set_Origin.txt
+PROCEDURE menu_Set_Origin;
+BEGIN
+	DoMenuTextByName ('Set Origin',0);
+END;
+RUN (menu_Set_Origin);
+
+V:\vector Scripts\menu commands\Set_Print_Area.txt
+PROCEDURE menu_Set_Print_Area;
+BEGIN
+	DoMenuTextByName ('Set Print Area',0);
+END;
+RUN (menu_Set_Print_Area);
+
+V:\vector Scripts\menu commands\Set_Size.txt
+PROCEDURE menu_Set_Size;
+BEGIN
+	DoMenuTextByName ('Set Size',0);
+END;
+RUN (menu_Set_Size);
+
+V:\vector Scripts\menu commands\Shallow_Symbol_to_Group.txt
+PROCEDURE menu_Shallow_Symbol_to_Group;
+BEGIN
+	DoMenuTextByName ('Shallow Symbol to Group',0);
+END;
+RUN (menu_Shallow_Symbol_to_Group);
+
+V:\vector Scripts\menu commands\Sweep.txt
+PROCEDURE menu_Sweep;
+BEGIN
+	DoMenuTextByName ('Sweep',0);
+END;
+RUN (menu_Sweep);
+
+V:\vector Scripts\menu commands\Sweep_and_Edit.txt
+PROCEDURE menu_Sweep_and_Edit;
+BEGIN
+	DoMenuTextByName ('Sweep and Edit',0);
+END;
+RUN (menu_Sweep_and_Edit);
+
+V:\vector Scripts\menu commands\Symbol_to_Group.txt
+PROCEDURE menu_Symbol_to_Group;
+BEGIN
+	DoMenuTextByName ('Symbol to Group',0);
+END;
+RUN (menu_Symbol_to_Group);
+
+V:\vector Scripts\menu commands\Title_Caps.txt
+PROCEDURE menu_Title_Caps;
+BEGIN
+	DoMenuTextByName ('Title Caps',0);
+END;
+RUN (menu_Title_Caps);
+
+V:\vector Scripts\menu commands\Trace_Bitmap.txt
+PROCEDURE menu_Trace_Bitmap;
+BEGIN
+	DoMenuTextByName ('Trace Bitmap',0);
+END;
+RUN (menu_Trace_Bitmap);
+
+V:\vector Scripts\menu commands\Undo.txt
+PROCEDURE menu_Undo;
+BEGIN
+	DoMenuTextByName ('Undo',0);
+END;
+RUN (menu_Undo);
+
+V:\vector Scripts\menu commands\Units.txt
+PROCEDURE menu_Units;
+BEGIN
+	DoMenuTextByName ('Units',0);
+END;
+RUN (menu_Units);
+
+V:\vector Scripts\menu commands\Unlock.txt
+PROCEDURE menu_Unlock;
+BEGIN
+	DoMenuTextByName ('Unlock',0);
+END;
+RUN (menu_Unlock);
+
+V:\vector Scripts\menu commands\Unrotate_3D_Objects.txt
+PROCEDURE menu_Unrotate_3D_Objects;
+BEGIN
+	DoMenuTextByName ('Unrotate 3D Objects',0);
+END;
+RUN (menu_Unrotate_3D_Objects);
+
+V:\vector Scripts\menu commands\UPPER_CASE.txt
+PROCEDURE menu_UPPER_CASE;
+BEGIN
+	DoMenuTextByName ('UPPER CASE',0);
+END;
+RUN (menu_UPPER_CASE);
+
+V:\vector Scripts\menu commands\Wall_Framer....txt
+PROCEDURE menu_Wall_Framer...;
+BEGIN
+	DoMenuTextByName ('Wall Framer...',0);
+END;
+RUN (menu_Wall_Framer...);
+
+V:\vector Scripts\menu commands\Workgroup_References.txt
+PROCEDURE menu_Workgroup_References;
+BEGIN
+	DoMenuTextByName ('Workgroup References',0);
+END;
+RUN (menu_Workgroup_References);
+
+

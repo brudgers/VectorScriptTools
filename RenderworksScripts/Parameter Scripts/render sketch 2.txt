@@ -1,0 +1,5 @@
+procedure doing;
+begin
+domenutextbyname ('sketch chunk', 2);
+end;
+run (doing);

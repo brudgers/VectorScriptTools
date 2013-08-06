@@ -1,0 +1,5 @@
+PROCEDURE menu_Wall_Framer...;
+BEGIN
+DoMenuTextByName ('Wall Framer...',0);
+END;
+RUN (menu_Wall_Framer...);

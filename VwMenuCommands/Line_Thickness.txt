@@ -1,0 +1,5 @@
+PROCEDURE menu_Line_Thickness;
+BEGIN
+DoMenuTextByName ('Line Thickness',0);
+END;
+RUN (menu_Line_Thickness);

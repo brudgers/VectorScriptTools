@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Layer_Colors;
+BEGIN
+SetPref(11, NOT GetPref(11));
+END;
+Run (toggle_pref_Use_Layer_Colors);

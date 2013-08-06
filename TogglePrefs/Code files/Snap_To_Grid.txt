@@ -1,0 +1,5 @@
+Procedure toggle_pref_Snap_To_Grid;
+BEGIN
+SetPref(37, NOT GetPref(37));
+END;
+Run (toggle_pref_Snap_To_Grid);

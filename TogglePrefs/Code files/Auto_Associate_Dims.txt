@@ -1,0 +1,5 @@
+Procedure toggle_pref_Auto_Associate_Dims;
+BEGIN
+SetPref(134, NOT GetPref(134));
+END;
+Run (toggle_pref_Auto_Associate_Dims);

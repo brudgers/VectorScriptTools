@@ -1,0 +1,5 @@
+PROCEDURE menu_Normal_Scale;
+BEGIN
+DoMenuTextByName ('Normal Scale',0);
+END;
+RUN (menu_Normal_Scale);

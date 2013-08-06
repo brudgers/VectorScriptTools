@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Save_Reminder;
+BEGIN
+SetPref(24, NOT GetPref(24));
+END;
+Run (toggle_pref_Use_Save_Reminder);

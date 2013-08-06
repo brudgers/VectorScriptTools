@@ -1,0 +1,5 @@
+PROCEDURE menu_Send_to_Front;
+BEGIN
+DoMenuTextByName ('Send to Front',0);
+END;
+RUN (menu_Send_to_Front);

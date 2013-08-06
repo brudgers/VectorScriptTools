@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Black_Background;
+BEGIN
+SetPref(16, NOT GetPref(16));
+END;
+Run (toggle_pref_Use_Black_Background);

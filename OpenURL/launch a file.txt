@@ -1,0 +1,17 @@
+Procedure launch_a_file;
+
+VAR
+	filename	:string;
+	urlstring	:string;
+	status 		:boolean;
+
+BEGIN
+GetFile(fileName);
+IF NOT DidCancel THEN 
+	BEGIN
+	urlstring := Concat('file:\\\',filename);
+	message (launch_file);
+	status:= OpenURL(urlstring);
+	END;
+END;
+RUN(launch_a_file);

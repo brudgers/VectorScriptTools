@@ -1,0 +1,337 @@
+V:\vector Scripts\toggle prefs\Click-Drag_Mode.txt
+Procedure toggle_pref_Click-Drag_Mode;
+BEGIN
+	SetPref(0, NOT GetPref(0));
+END;
+Run (toggle_pref_Click-Drag_Mode);
+V:\vector Scripts\toggle prefs\Offset_Duplicates.txt
+Procedure toggle_pref_Offset_Duplicates;
+BEGIN
+	SetPref(1, NOT GetPref(1));
+END;
+Run (toggle_pref_Offset_Duplicates);
+V:\vector Scripts\toggle prefs\Full_Screen_Cursor.txt
+Procedure toggle_pref_Full_Screen_Cursor;
+BEGIN
+	SetPref(2, NOT GetPref(2));
+END;
+Run (toggle_pref_Full_Screen_Cursor);
+V:\vector Scripts\toggle prefs\Show_Screen_Hints.txt
+Procedure toggle_pref_Show_Screen_Hints;
+BEGIN
+	SetPref(3, NOT GetPref(3));
+END;
+Run (toggle_pref_Show_Screen_Hints);
+V:\vector Scripts\toggle prefs\Floating_Datum.txt
+Procedure toggle_pref_Floating_Datum;
+BEGIN
+	SetPref(4, NOT GetPref(4));
+END;
+Run (toggle_pref_Floating_Datum);
+V:\vector Scripts\toggle prefs\Snap_To_Loci.txt
+Procedure toggle_pref_Snap_To_Loci;
+BEGIN
+	SetPref(5, NOT GetPref(5));
+END;
+Run (toggle_pref_Snap_To_Loci);
+V:\vector Scripts\toggle prefs\Show_Rulers.txt
+Procedure toggle_pref_Show_Rulers;
+BEGIN
+	SetPref(6, NOT GetPref(6));
+END;
+Run (toggle_pref_Show_Rulers);
+V:\vector Scripts\toggle prefs\Show_Scroll_Bars.txt
+Procedure toggle_pref_Show_Scroll_Bars;
+BEGIN
+	SetPref(7, NOT GetPref(7));
+END;
+Run (toggle_pref_Show_Scroll_Bars);
+V:\vector Scripts\toggle prefs\No_Fill_Behind_Text.txt
+Procedure toggle_pref_No_Fill_Behind_Text;
+BEGIN
+	SetPref(8, NOT GetPref(8));
+END;
+Run (toggle_pref_No_Fill_Behind_Text);
+V:\vector Scripts\toggle prefs\Zoom_Line_Thickness.txt
+Procedure toggle_pref_Zoom_Line_Thickness;
+BEGIN
+	SetPref(9, NOT GetPref(9));
+END;
+Run (toggle_pref_Zoom_Line_Thickness);
+V:\vector Scripts\toggle prefs\Black_and_White_Only.txt
+Procedure toggle_pref_Black_and_White_Only;
+BEGIN
+	SetPref(10, NOT GetPref(10));
+END;
+Run (toggle_pref_Black_and_White_Only);
+V:\vector Scripts\toggle prefs\Use_Layer_Colors.txt
+Procedure toggle_pref_Use_Layer_Colors;
+BEGIN
+	SetPref(11, NOT GetPref(11));
+END;
+Run (toggle_pref_Use_Layer_Colors);
+V:\vector Scripts\toggle prefs\Log_Time_in_Program.txt
+Procedure toggle_pref_Log_Time_in_Program;
+BEGIN
+	SetPref(12, NOT GetPref(12));
+END;
+Run (toggle_pref_Log_Time_in_Program);
+V:\vector Scripts\toggle prefs\Adjust_Flipped_Text.txt
+Procedure toggle_pref_Adjust_Flipped_Text;
+BEGIN
+	SetPref(13, NOT GetPref(13));
+END;
+Run (toggle_pref_Adjust_Flipped_Text);
+V:\vector Scripts\toggle prefs\Show_Other_Objects_While_In_Group.txt
+Procedure toggle_pref_Show_Other_Objects_While_In_Group;
+BEGIN
+	SetPref(14, NOT GetPref(14));
+END;
+Run (toggle_pref_Show_Other_Objects_While_In_Group);
+V:\vector Scripts\toggle prefs\Show_3D_Axis_Labels.txt
+Procedure toggle_pref_Show_3D_Axis_Labels;
+BEGIN
+	SetPref(15, NOT GetPref(15));
+END;
+Run (toggle_pref_Show_3D_Axis_Labels);
+V:\vector Scripts\toggle prefs\Use_Black_Background.txt
+Procedure toggle_pref_Use_Black_Background;
+BEGIN
+	SetPref(16, NOT GetPref(16));
+END;
+Run (toggle_pref_Use_Black_Background);
+V:\vector Scripts\toggle prefs\Use_Eight_Selection_Handles.txt
+Procedure toggle_pref_Use_Eight_Selection_Handles;
+BEGIN
+	SetPref(17, NOT GetPref(17));
+END;
+Run (toggle_pref_Use_Eight_Selection_Handles);
+V:\vector Scripts\toggle prefs\Use_Sound.txt
+Procedure toggle_pref_Use_Sound;
+BEGIN
+	SetPref(18, NOT GetPref(18));
+END;
+Run (toggle_pref_Use_Sound);
+V:\vector Scripts\toggle prefs\Issue_Undo_Warnings.txt
+Procedure toggle_pref_Issue_Undo_Warnings;
+BEGIN
+	SetPref(19, NOT GetPref(19));
+END;
+Run (toggle_pref_Issue_Undo_Warnings);
+V:\vector Scripts\toggle prefs\Opaque_SmartCursor.txt
+Procedure toggle_pref_Opaque_SmartCursor;
+BEGIN
+	SetPref(20, NOT GetPref(20));
+END;
+Run (toggle_pref_Opaque_SmartCursor);
+V:\vector Scripts\toggle prefs\Stop_VectorScript_on_Warnings.txt
+Procedure toggle_pref_Stop_VectorScript_on_Warnings;
+BEGIN
+	SetPref(21, NOT GetPref(21));
+END;
+Run (toggle_pref_Stop_VectorScript_on_Warnings);
+V:\vector Scripts\toggle prefs\Left_Palette_Margin.txt
+Procedure toggle_pref_Left_Palette_Margin;
+BEGIN
+	SetPref(22, NOT GetPref(22));
+END;
+Run (toggle_pref_Left_Palette_Margin);
+V:\vector Scripts\toggle prefs\Right_Palette_Margin.txt
+Procedure toggle_pref_Right_Palette_Margin;
+BEGIN
+	SetPref(23, NOT GetPref(23));
+END;
+Run (toggle_pref_Right_Palette_Margin);
+V:\vector Scripts\toggle prefs\Use_Save_Reminder.txt
+Procedure toggle_pref_Use_Save_Reminder;
+BEGIN
+	SetPref(24, NOT GetPref(24));
+END;
+Run (toggle_pref_Use_Save_Reminder);
+V:\vector Scripts\toggle prefs\Show_Parametric_Constraints.txt
+Procedure toggle_pref_Show_Parametric_Constraints;
+BEGIN
+	SetPref(25, NOT GetPref(25));
+END;
+Run (toggle_pref_Show_Parametric_Constraints);
+V:\vector Scripts\toggle prefs\Display_Minor_Alerts_on_Mode_Bar.txt
+Procedure toggle_pref_Display_Minor_Alerts_on_Mode_Bar;
+BEGIN
+	SetPref(27, NOT GetPref(27));
+END;
+Run (toggle_pref_Display_Minor_Alerts_on_Mode_Bar);
+V:\vector Scripts\toggle prefs\Associate_Dimensions.txt
+Procedure toggle_pref_Associate_Dimensions;
+BEGIN
+	SetPref(28, NOT GetPref(28));
+END;
+Run (toggle_pref_Associate_Dimensions);
+V:\vector Scripts\toggle prefs\Spell_Check_Capitalized_Words.txt
+Procedure toggle_pref_Spell_Check_Capitalized_Words;
+BEGIN
+	SetPref(29, NOT GetPref(29));
+END;
+Run (toggle_pref_Spell_Check_Capitalized_Words);
+V:\vector Scripts\toggle prefs\Spell_Check_Words_in_ALL_CAPS.txt
+Procedure toggle_pref_Spell_Check_Words_in_ALL_CAPS;
+BEGIN
+	SetPref(30, NOT GetPref(30));
+END;
+Run (toggle_pref_Spell_Check_Words_in_ALL_CAPS);
+V:\vector Scripts\toggle prefs\Spell_Check_Mixed_Case_Words.txt
+Procedure toggle_pref_Spell_Check_Mixed_Case_Words;
+BEGIN
+	SetPref(31, NOT GetPref(31));
+END;
+Run (toggle_pref_Spell_Check_Mixed_Case_Words);
+V:\vector Scripts\toggle prefs\Spell_Check_Words_With_Numbers.txt
+Procedure toggle_pref_Spell_Check_Words_With_Numbers;
+BEGIN
+	SetPref(32, NOT GetPref(32));
+END;
+Run (toggle_pref_Spell_Check_Words_With_Numbers);
+V:\vector Scripts\toggle prefs\Auto_Join_Walls.txt
+Procedure toggle_pref_Auto_Join_Walls;
+BEGIN
+	SetPref(33, NOT GetPref(33));
+END;
+Run (toggle_pref_Auto_Join_Walls);
+V:\vector Scripts\toggle prefs\Show_Page_Breaks.txt
+Procedure toggle_pref_Show_Page_Breaks;
+BEGIN
+	SetPref(34, NOT GetPref(34));
+END;
+Run (toggle_pref_Show_Page_Breaks);
+V:\vector Scripts\toggle prefs\Show_Grid.txt
+Procedure toggle_pref_Show_Grid;
+BEGIN
+	SetPref(35, NOT GetPref(35));
+END;
+Run (toggle_pref_Show_Grid);
+V:\vector Scripts\toggle prefs\Print_Grid.txt
+Procedure toggle_pref_Print_Grid;
+BEGIN
+	SetPref(36, NOT GetPref(36));
+END;
+Run (toggle_pref_Print_Grid);
+V:\vector Scripts\toggle prefs\Snap_To_Grid.txt
+Procedure toggle_pref_Snap_To_Grid;
+BEGIN
+	SetPref(37, NOT GetPref(37));
+END;
+Run (toggle_pref_Snap_To_Grid);
+V:\vector Scripts\toggle prefs\Snap_To_Object.txt
+Procedure toggle_pref_Snap_To_Object;
+BEGIN
+	SetPref(38, NOT GetPref(38));
+END;
+Run (toggle_pref_Snap_To_Object);
+V:\vector Scripts\toggle prefs\Save_By_Time.txt
+Procedure toggle_pref_Save_By_Time;
+BEGIN
+	SetPref(39, NOT GetPref(39));
+END;
+Run (toggle_pref_Save_By_Time);
+V:\vector Scripts\toggle prefs\Save_Confirm.txt
+Procedure toggle_pref_Save_Confirm;
+BEGIN
+	SetPref(40, NOT GetPref(40));
+END;
+Run (toggle_pref_Save_Confirm);
+V:\vector Scripts\toggle prefs\Save_To_Backup.txt
+Procedure toggle_pref_Save_To_Backup;
+BEGIN
+	SetPref(41, NOT GetPref(41));
+END;
+Run (toggle_pref_Save_To_Backup);
+V:\vector Scripts\toggle prefs\Palette_Docking.txt
+Procedure toggle_pref_Palette_Docking;
+BEGIN
+	SetPref(43, NOT GetPref(43));
+END;
+Run (toggle_pref_Palette_Docking);
+V:\vector Scripts\toggle prefs\Create_Dimensions_in_Dimension_Class.txt
+Procedure toggle_pref_Create_Dimensions_in_Dimension_Class;
+BEGIN
+	SetPref(44, NOT GetPref(44));
+END;
+Run (toggle_pref_Create_Dimensions_in_Dimension_Class);
+V:\vector Scripts\toggle prefs\Accelerated_2D_Navigation.txt
+Procedure toggle_pref_Accelerated_2D_Navigation;
+BEGIN
+	SetPref(45, NOT GetPref(45));
+END;
+Run (toggle_pref_Accelerated_2D_Navigation);
+V:\vector Scripts\toggle prefs\Use_Vector_Caching.txt
+Procedure toggle_pref_Use_Vector_Caching;
+BEGIN
+	SetPref(46, NOT GetPref(46));
+END;
+Run (toggle_pref_Use_Vector_Caching);
+V:\vector Scripts\toggle prefs\Sketch_Hidden_Line.txt
+Procedure toggle_pref_Sketch_Hidden_Line;
+BEGIN
+	SetPref(47, NOT GetPref(47));
+END;
+Run (toggle_pref_Sketch_Hidden_Line);
+V:\vector Scripts\toggle prefs\Snap_to_Edge_Points.txt
+Procedure toggle_pref_Snap_to_Edge_Points;
+BEGIN
+	SetPref(48, NOT GetPref(48));
+END;
+Run (toggle_pref_Snap_to_Edge_Points);
+V:\vector Scripts\toggle prefs\Show_Page_Boundary.txt
+Procedure toggle_pref_Show_Page_Boundary;
+BEGIN
+	SetPref(49, NOT GetPref(49));
+END;
+Run (toggle_pref_Show_Page_Boundary);
+V:\vector Scripts\toggle prefs\Display_Default_Content.txt
+Procedure toggle_pref_Display_Default_Content;
+BEGIN
+	SetPref(130, NOT GetPref(130));
+END;
+Run (toggle_pref_Display_Default_Content);
+V:\vector Scripts\toggle prefs\Display_Default_Content.txt
+Procedure toggle_pref_Display_Default_Content;
+BEGIN
+	SetPref(130, NOT GetPref(130));
+END;
+Run (toggle_pref_Display_Default_Content);
+V:\vector Scripts\toggle prefs\Auto_File_Extensions_On_Mac.txt
+Procedure toggle_pref_Auto_File_Extensions_On_Mac;
+BEGIN
+	SetPref(131, NOT GetPref(131));
+END;
+Run (toggle_pref_Auto_File_Extensions_On_Mac);
+V:\vector Scripts\toggle prefs\Use_Quartz_Imaging.txt
+Procedure toggle_pref_Use_Quartz_Imaging;
+BEGIN
+	SetPref(132, NOT GetPref(132));
+END;
+Run (toggle_pref_Use_Quartz_Imaging);
+V:\vector Scripts\toggle prefs\Use_Anti_Aliasing.txt
+Procedure toggle_pref_Use_Anti_Aliasing;
+BEGIN
+	SetPref(133, NOT GetPref(133));
+END;
+Run (toggle_pref_Use_Anti_Aliasing);
+V:\vector Scripts\toggle prefs\Auto_Associate_Dims.txt
+Procedure toggle_pref_Auto_Associate_Dims;
+BEGIN
+	SetPref(134, NOT GetPref(134));
+END;
+Run (toggle_pref_Auto_Associate_Dims);
+V:\vector Scripts\toggle prefs\Mouse_Wheel_Zoom.txt
+Procedure toggle_pref_Mouse_Wheel_Zoom;
+BEGIN
+	SetPref(135, NOT GetPref(135));
+END;
+Run (toggle_pref_Mouse_Wheel_Zoom);
+V:\vector Scripts\toggle prefs\Use_Custom_Move_Distance.txt
+Procedure toggle_pref_Use_Custom_Move_Distance;
+BEGIN
+	SetPref(136, NOT GetPref(136));
+END;
+Run (toggle_pref_Use_Custom_Move_Distance);
+

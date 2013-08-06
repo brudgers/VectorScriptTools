@@ -1,0 +1,5 @@
+Procedure toggle_pref_Spell_Check_Mixed_Case_Words;
+BEGIN
+SetPref(31, NOT GetPref(31));
+END;
+Run (toggle_pref_Spell_Check_Mixed_Case_Words);

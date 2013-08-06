@@ -1,0 +1,5 @@
+Procedure toggle_pref_Right_Palette_Margin;
+BEGIN
+SetPref(23, NOT GetPref(23));
+END;
+Run (toggle_pref_Right_Palette_Margin);

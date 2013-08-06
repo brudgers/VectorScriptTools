@@ -1,0 +1,5 @@
+PROCEDURE menu_Align_Objects;
+BEGIN
+DoMenuTextByName ('Align Objects',0);
+END;
+RUN (menu_Align_Objects);

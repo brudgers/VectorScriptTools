@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Sound;
+BEGIN
+SetPref(18, NOT GetPref(18));
+END;
+Run (toggle_pref_Use_Sound);

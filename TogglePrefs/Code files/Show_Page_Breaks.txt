@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_Page_Breaks;
+BEGIN
+SetPref(34, NOT GetPref(34));
+END;
+Run (toggle_pref_Show_Page_Breaks);

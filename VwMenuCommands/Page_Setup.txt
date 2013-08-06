@@ -1,0 +1,5 @@
+PROCEDURE menu_Page_Setup;
+BEGIN
+DoMenuTextByName ('Page Setup',0);
+END;
+RUN (menu_Page_Setup);

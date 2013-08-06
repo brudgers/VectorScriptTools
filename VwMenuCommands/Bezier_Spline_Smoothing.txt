@@ -1,0 +1,5 @@
+PROCEDURE menu_Bezier_Spline_Smoothing;
+BEGIN
+DoMenuTextByName ('Bezier Spline Smoothing',0);
+END;
+RUN (menu_Bezier_Spline_Smoothing);

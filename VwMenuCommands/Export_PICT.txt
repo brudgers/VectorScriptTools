@@ -1,0 +1,5 @@
+PROCEDURE menu_Export_PICT;
+BEGIN
+DoMenuTextByName ('Export PICT',0);
+END;
+RUN (menu_Export_PICT);

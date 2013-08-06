@@ -1,0 +1,5 @@
+PROCEDURE menu_Shallow_Symbol_to_Group;
+BEGIN
+DoMenuTextByName ('Shallow Symbol to Group',0);
+END;
+RUN (menu_Shallow_Symbol_to_Group);

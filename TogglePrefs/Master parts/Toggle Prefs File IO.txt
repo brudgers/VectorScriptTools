@@ -1,0 +1,46 @@
+PROCEDURE bar_parse_mergefile;
+
+
+VAR
+ 	i : INTEGER;
+	merge_source_file : STRING;
+	vs_output_file : STRING;
+	bar_readline1,bar_readline2,bar_readline3,bar_readline4,bar_readline5  : string;
+
+BEGIN
+	merge_source_file := 'V:\vector Scripts\toggle prefs\master parts\proceduremenu.txt';
+
+OPEN (merge_source_file);
+
+FOR i:=1 TO 131 DO BEGIN
+
+READLN (vs_output_file);
+READLN (bar_readline1,bar_readline2,bar_readline3,bar_readline4,bar_readline5); 
+
+{//////
+ALRTDIALOG (vs_output_file);
+ALRTDIALOG (bar_readline5);
+/////}
+
+REWRITE (vs_output_file);
+WRITELN (bar_readline1,CHR(13));
+WRITELN (bar_readline2,CHR(13));
+WRITELN (bar_readline3,CHR(13));
+WRITELN (bar_readline4,CHR(13));
+WRITELN (bar_readline5,CHR(13));
+
+CLOSE (vs_output_file);
+
+{\\\\\\\ALRTDIALOG (vs_output_file);\\\\\\\\\\\}
+
+
+END; 
+
+ALRTDIALOG ('ended loop');
+
+CLOSE (merge_source_file);
+
+END;
+RUN (bar_parse_mergefile);
+
+

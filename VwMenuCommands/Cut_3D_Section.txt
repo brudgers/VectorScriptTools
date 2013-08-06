@@ -1,0 +1,5 @@
+PROCEDURE menu_Cut_3D_Section;
+BEGIN
+DoMenuTextByName ('Cut 3D Section',0);
+END;
+RUN (menu_Cut_3D_Section);

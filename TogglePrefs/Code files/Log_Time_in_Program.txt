@@ -1,0 +1,5 @@
+Procedure toggle_pref_Log_Time_in_Program;
+BEGIN
+SetPref(12, NOT GetPref(12));
+END;
+Run (toggle_pref_Log_Time_in_Program);

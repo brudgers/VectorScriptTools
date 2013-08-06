@@ -1,0 +1,5 @@
+PROCEDURE menu_Copy;
+BEGIN
+DoMenuTextByName ('Copy',0);
+END;
+RUN (menu_Copy);

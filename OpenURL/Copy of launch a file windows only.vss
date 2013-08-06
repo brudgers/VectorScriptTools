@@ -1,0 +1,36 @@
+Procedure launch_a_file;
+
+VAR
+	{bad_mac variables}
+	appMajor, appMinor, appMaint, platform : integer;
+	
+	{run_on_windows variables}
+	filename	:string;
+	urlstring	:string;
+	status 		:boolean;
+
+Procedure run_on_windows;
+BEGIN
+GetFile(fileName);
+IF NOT DidCancel THEN 
+	BEGIN
+		urlstring := Concat('file:\\\',filename);
+		status:= OpenURL(urlstring);
+	END;
+END;
+
+PROCEDURE bad_mac;
+BEGIN
+	alrtdialog ('OSX not Supported');
+	alrtdialog ('Ending Program');
+END;
+
+BEGIN {main loop}
+GetVersion(appMajor, appMinor, appMaint, platform);
+		IF (platform = 1) 
+		THEN bad_mac
+		ELSE run_on_windows;
+END;
+
+
+RUN(launch_a_file);

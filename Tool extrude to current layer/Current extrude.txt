@@ -1,0 +1,1 @@
+Procedure main;Procedure something (h : handle);	Begin			setselect (h);		domenutextbyname ('extrude and edit', 0);	End; {something}Begin {main}	Foreachobject(something, sel=true); 	End; {main}run (main);

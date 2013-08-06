@@ -1,0 +1,5 @@
+PROCEDURE menu_Format_Text;
+BEGIN
+DoMenuTextByName ('Format Text',0);
+END;
+RUN (menu_Format_Text);

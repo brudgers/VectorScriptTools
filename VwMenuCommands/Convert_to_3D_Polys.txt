@@ -1,0 +1,5 @@
+PROCEDURE menu_Convert_to_3D_Polys;
+BEGIN
+DoMenuTextByName ('Convert to 3D Polys',0);
+END;
+RUN (menu_Convert_to_3D_Polys);

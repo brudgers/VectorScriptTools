@@ -1,0 +1,39 @@
+Procedure wrapper;
+Var
+	h : handle;
+	B : BOOLEAN;
+
+
+FUNCTION set_to_byclass(h1 : Handle) : BOOLEAN;
+	Begin
+			Setfillcolorbyclass (h1);
+			SetFPatbyClass (h1);
+			SetLSbyClass (h1);
+			SetLWbyClass (h1);
+			SetMarkerByClass (h1);
+			SetOpacityByClass (h1);
+			SetPenColorByClass (h1);
+	End;
+	
+PROCEDURE set_loose_objects;
+Begin
+	h :=	FObject;
+	ForeachObjectInList (set_to_byclass, 0, 2, h);
+End;
+
+PROCEDURE set_symbol_defs;
+Begin
+	h :=FsymDef;
+	while h <> nil do begin
+		ForeachObjectInList (set_to_byclass, 0, 2, h);
+		h := nextsymdef (h);
+	End;
+End;
+
+Begin
+	set_loose_objects;
+	set_symbol_defs;
+	
+End;
+
+Run (wrapper);

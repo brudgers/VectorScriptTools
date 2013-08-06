@@ -1,0 +1,14 @@
+{REQUIRES Parameter "Menu command"}
+{REQUIRES Parameter "Menu index"}
+Procedure Kludgebuttons;
+
+Var
+	strVar : string;
+	i : integer;
+	
+Begin
+	strVar 	:= 	PMenu_command;
+	i 		:= 	PMenu_index;
+	DoMenutextbyname (strVar, i);
+End;
+Run (Kludgebuttons);

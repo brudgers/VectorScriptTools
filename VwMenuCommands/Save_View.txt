@@ -1,0 +1,5 @@
+PROCEDURE menu_Save_View;
+BEGIN
+DoMenuTextByName ('Save View',0);
+END;
+RUN (menu_Save_View);

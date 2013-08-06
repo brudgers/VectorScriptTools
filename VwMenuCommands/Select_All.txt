@@ -1,0 +1,5 @@
+PROCEDURE menu_Select_All;
+BEGIN
+DoMenuTextByName ('Select All',0);
+END;
+RUN (menu_Select_All);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Send_Forward;
+BEGIN
+DoMenuTextByName ('Send Forward',0);
+END;
+RUN (menu_Send_Forward);

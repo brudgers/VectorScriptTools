@@ -1,0 +1,5 @@
+Procedure toggle_pref_Auto_Join_Walls;
+BEGIN
+	SetPref(33, NOT GetPref(33));
+END;
+Run (toggle_pref_Auto_Join_Walls);

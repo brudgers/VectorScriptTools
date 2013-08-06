@@ -1,0 +1,5 @@
+Procedure toggle_pref_Full_Screen_Cursor;
+BEGIN
+SetPref(2, NOT GetPref(2));
+END;
+Run (toggle_pref_Full_Screen_Cursor);

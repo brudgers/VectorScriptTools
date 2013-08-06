@@ -1,0 +1,5 @@
+PROCEDURE menu_Application_Preferences;
+BEGIN
+DoMenuTextByName ('Application Preferences',0);
+END;
+RUN (menu_Application_Preferences);

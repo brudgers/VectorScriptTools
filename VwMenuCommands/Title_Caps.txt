@@ -1,0 +1,5 @@
+PROCEDURE menu_Title_Caps;
+BEGIN
+DoMenuTextByName ('Title Caps',0);
+END;
+RUN (menu_Title_Caps);

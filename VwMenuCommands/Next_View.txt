@@ -1,0 +1,5 @@
+PROCEDURE menu_Next_View;
+BEGIN
+DoMenuTextByName ('Next View',0);
+END;
+RUN (menu_Next_View);

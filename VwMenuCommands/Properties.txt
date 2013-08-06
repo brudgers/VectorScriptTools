@@ -1,0 +1,5 @@
+PROCEDURE menu_Properties;
+BEGIN
+DoMenuTextByName ('Properties',0);
+END;
+RUN (menu_Properties);

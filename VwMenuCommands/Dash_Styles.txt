@@ -1,0 +1,5 @@
+PROCEDURE menu_Dash_Styles;
+BEGIN
+DoMenuTextByName ('Dash Styles',0);
+END;
+RUN (menu_Dash_Styles);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Clip_Surface;
+BEGIN
+DoMenuTextByName ('Clip Surface',0);
+END;
+RUN (menu_Clip_Surface);

@@ -1,0 +1,5 @@
+Procedure toggle_pref_Zoom_Line_Thickness;
+BEGIN
+SetPref(9, NOT GetPref(9));
+END;
+Run (toggle_pref_Zoom_Line_Thickness);

@@ -1,0 +1,5 @@
+Procedure toggle_pref_Floating_Datum;
+BEGIN
+SetPref(4, NOT GetPref(4));
+END;
+Run (toggle_pref_Floating_Datum);

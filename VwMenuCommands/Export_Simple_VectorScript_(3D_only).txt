@@ -1,0 +1,5 @@
+PROCEDURE menu_Export_Simple_VectorScript_(3D_only);
+BEGIN
+DoMenuTextByName ('Export Simple VectorScript (3D only)',0);
+END;
+RUN (menu_Export_Simple_VectorScript_(3D_only));

@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Vector_Caching;
+BEGIN
+SetPref(46, NOT GetPref(46));
+END;
+Run (toggle_pref_Use_Vector_Caching);

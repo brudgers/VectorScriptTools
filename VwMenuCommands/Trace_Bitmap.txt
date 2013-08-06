@@ -1,0 +1,5 @@
+PROCEDURE menu_Trace_Bitmap;
+BEGIN
+DoMenuTextByName ('Trace Bitmap',0);
+END;
+RUN (menu_Trace_Bitmap);

@@ -1,0 +1,5 @@
+Procedure toggle_pref_Display_Default_Content;
+BEGIN
+SetPref(130, NOT GetPref(130));
+END;
+Run (toggle_pref_Display_Default_Content);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Multiple_Extrude;
+BEGIN
+DoMenuTextByName ('Multiple Extrude',0);
+END;
+RUN (menu_Multiple_Extrude);

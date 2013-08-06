@@ -1,0 +1,5 @@
+PROCEDURE menu_Arrow_Heads;
+BEGIN
+DoMenuTextByName ('Arrow Heads',0);
+END;
+RUN (menu_Arrow_Heads);

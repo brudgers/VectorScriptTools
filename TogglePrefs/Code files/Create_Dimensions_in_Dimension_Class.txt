@@ -1,0 +1,5 @@
+Procedure toggle_pref_Create_Dimensions_in_Dimension_Class;
+BEGIN
+SetPref(44, NOT GetPref(44));
+END;
+Run (toggle_pref_Create_Dimensions_in_Dimension_Class);

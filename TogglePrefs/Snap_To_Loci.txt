@@ -1,0 +1,5 @@
+Procedure toggle_pref_Snap_To_Loci;
+BEGIN
+SetPref(5, NOT GetPref(5));
+END;
+Run (toggle_pref_Snap_To_Loci);

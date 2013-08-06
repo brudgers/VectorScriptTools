@@ -1,0 +1,5 @@
+PROCEDURE menu_Classes;
+BEGIN
+DoMenuTextByName ('Classes',0);
+END;
+RUN (menu_Classes);

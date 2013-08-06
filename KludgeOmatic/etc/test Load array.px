@@ -1,0 +1,19 @@
+Aparam[1].TFignore	:=	P1Ignore	;
+Aparam[2].TFignore	:=	P2Ignore	;
+Aparam[3].TFignore	:=	P3Ignore	;								
+										
+Aparam[1].TFdeselect	:=	P1deselect	;
+Aparam[2].TFdeselect	:=	P2deselect	;
+Aparam[3].TFdeselect	:=	P3deselect	;							
+										
+Aparam[1].comstring	:=	P1command	;
+Aparam[2].comstring	:=	P2command	;
+Aparam[3].comstring	:=	P3command	;										
+										
+Aparam[1].comIndex	:=	P1Index	;
+Aparam[2].comIndex	:=	P2Index	;
+Aparam[3].comIndex	:=	P3Index	;
+
+Aparam[1].TFterminate	:=	P1terminate	;
+Aparam[2].TFterminate	:=	P2terminate	;
+Aparam[3].TFterminate	:=	P3terminate	;

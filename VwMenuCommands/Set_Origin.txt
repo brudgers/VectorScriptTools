@@ -1,0 +1,5 @@
+PROCEDURE menu_Set_Origin;
+BEGIN
+DoMenuTextByName ('Set Origin',0);
+END;
+RUN (menu_Set_Origin);

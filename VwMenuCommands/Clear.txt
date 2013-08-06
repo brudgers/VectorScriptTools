@@ -1,0 +1,5 @@
+PROCEDURE menu_Clear;
+BEGIN
+DoMenuTextByName ('Clear',0);
+END;
+RUN (menu_Clear);

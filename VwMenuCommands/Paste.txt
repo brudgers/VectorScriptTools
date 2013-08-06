@@ -1,0 +1,5 @@
+PROCEDURE menu_Paste;
+BEGIN
+DoMenuTextByName ('Paste',0);
+END;
+RUN (menu_Paste);

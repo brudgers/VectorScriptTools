@@ -1,0 +1,5 @@
+PROCEDURE menu_Symbol_to_Group;
+BEGIN
+DoMenuTextByName ('Symbol to Group',0);
+END;
+RUN (menu_Symbol_to_Group);

@@ -1,0 +1,5 @@
+Procedure toggle_pref_Click-Drag_Mode;
+BEGIN
+SetPref(0, NOT GetPref(0));
+END;
+Run (toggle_pref_Click-Drag_Mode);

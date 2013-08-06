@@ -1,0 +1,5 @@
+PROCEDURE menu_Color_Palette;
+BEGIN
+DoMenuTextByName ('Color Palette',0);
+END;
+RUN (menu_Color_Palette);

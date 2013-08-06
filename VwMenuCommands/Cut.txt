@@ -1,0 +1,5 @@
+PROCEDURE menu_Cut;
+BEGIN
+DoMenuTextByName ('Cut',0);
+END;
+RUN (menu_Cut);

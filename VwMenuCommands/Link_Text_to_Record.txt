@@ -1,0 +1,5 @@
+PROCEDURE menu_Link_Text_to_Record;
+BEGIN
+DoMenuTextByName ('Link Text to Record',0);
+END;
+RUN (menu_Link_Text_to_Record);

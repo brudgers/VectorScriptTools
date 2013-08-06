@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_Screen_Hints;
+BEGIN
+SetPref(3, NOT GetPref(3));
+END;
+Run (toggle_pref_Show_Screen_Hints);

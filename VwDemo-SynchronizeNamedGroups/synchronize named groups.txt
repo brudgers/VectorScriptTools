@@ -1,0 +1,64 @@
+{********NEEDS DIALOG**********}
+
+PROCEDURE sync_groups;
+
+VAR
+NameSourceGroup 		: string;
+hSourceGroup			: handle;
+NameDestGroup 			: string;
+hDestGroup				: handle;
+hTemp						: handle;
+hTemp2					: handle;  {used for return value only in FillDestGroup}
+
+PROCEDURE GetSourceGroup;
+	Begin
+		NameSourceGroup := 'Group1';
+		hSourceGroup	:= GetObject(NameSourceGroup);
+	End;
+
+PROCEDURE GetDestGroup;
+	Begin
+		NameDestGroup := 'Group2';
+		hDestGroup	  := GetObject(NameDestGroup);
+	End;
+
+PROCEDURE StartingInterface;
+	Begin
+		GetSourceGroup;
+		GetDestGroup;
+	End;
+	
+PROCEDURE DeleteDestObjects;
+		Begin
+			AlrtDialog ('DeleteDestObjects');
+				hTemp :=	FInGroup (hDestGroup);
+				While hTemp <> Nil Do Begin
+					DelObject(htemp);
+					htemp := NextObj (htemp);
+				End; {while}
+		End;
+		
+	PROCEDURE FillDestGroup;
+		Begin;
+			AlrtDialog ('FillDestGroup');
+			hTemp :=	FInGroup (hSourceGroup);
+				While hTemp <> Nil Do Begin
+					htemp2 := CreateDuplicateObject(hTemp, hDestgroup);
+					htemp := NextObj (htemp);
+				End; {while}
+		End;
+		
+		
+	PROCEDURE CopyAnotherGroup;		{User Interface:  Loop or Terminate}
+		Begin
+			AlrtDialog ('CopyAnotherGroup');			{*************Need Code********}
+		End;
+
+BEGIN		{MAIN}
+	StartingInterface;
+	DeleteDestObjects;
+	FillDestGroup;
+	CopyAnotherGroup;
+END;			{MAIN}
+
+RUN (sync_groups);

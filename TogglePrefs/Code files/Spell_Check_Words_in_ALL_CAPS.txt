@@ -1,0 +1,5 @@
+Procedure toggle_pref_Spell_Check_Words_in_ALL_CAPS;
+BEGIN
+SetPref(30, NOT GetPref(30));
+END;
+Run (toggle_pref_Spell_Check_Words_in_ALL_CAPS);

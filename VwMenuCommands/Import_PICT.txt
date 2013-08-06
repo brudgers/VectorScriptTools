@@ -1,0 +1,5 @@
+PROCEDURE menu_Import_PICT;
+BEGIN
+DoMenuTextByName ('Import PICT',0);
+END;
+RUN (menu_Import_PICT);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Import_Text_Format;
+BEGIN
+DoMenuTextByName ('Import Text Format',0);
+END;
+RUN (menu_Import_Text_Format);

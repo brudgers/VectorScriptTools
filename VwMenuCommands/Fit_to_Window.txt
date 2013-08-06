@@ -1,0 +1,5 @@
+PROCEDURE menu_Fit_to_Window;
+BEGIN
+DoMenuTextByName ('Fit to Window',0);
+END;
+RUN (menu_Fit_to_Window);

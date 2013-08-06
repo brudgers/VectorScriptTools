@@ -1,0 +1,5 @@
+PROCEDURE menu_Deselect_All;
+BEGIN
+DoMenuTextByName ('Deselect All',0);
+END;
+RUN (menu_Deselect_All);

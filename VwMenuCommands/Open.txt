@@ -1,0 +1,5 @@
+PROCEDURE menu_Open;
+BEGIN
+DoMenuTextByName ('Open',0);
+END;
+RUN (menu_Open);

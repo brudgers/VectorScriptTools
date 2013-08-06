@@ -1,0 +1,5 @@
+Procedure toggle_pref_Sketch_Hidden_Line;
+BEGIN
+SetPref(47, NOT GetPref(47));
+END;
+Run (toggle_pref_Sketch_Hidden_Line);

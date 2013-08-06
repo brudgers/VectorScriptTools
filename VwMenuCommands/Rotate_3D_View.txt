@@ -1,0 +1,5 @@
+PROCEDURE menu_Rotate_3D_View;
+BEGIN
+DoMenuTextByName ('Rotate 3D View',0);
+END;
+RUN (menu_Rotate_3D_View);

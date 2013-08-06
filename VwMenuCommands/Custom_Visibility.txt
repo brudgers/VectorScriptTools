@@ -1,0 +1,5 @@
+PROCEDURE menu_Custom_Visibility;
+BEGIN
+DoMenuTextByName ('Custom Visibility',0);
+END;
+RUN (menu_Custom_Visibility);

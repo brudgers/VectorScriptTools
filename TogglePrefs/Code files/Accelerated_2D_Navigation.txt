@@ -1,0 +1,5 @@
+Procedure toggle_pref_Accelerated_2D_Navigation;
+BEGIN
+SetPref(45, NOT GetPref(45));
+END;
+Run (toggle_pref_Accelerated_2D_Navigation);

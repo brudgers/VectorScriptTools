@@ -1,0 +1,5 @@
+PROCEDURE menu_Revert_To_Saved;
+BEGIN
+DoMenuTextByName ('Revert To Saved',0);
+END;
+RUN (menu_Revert_To_Saved);

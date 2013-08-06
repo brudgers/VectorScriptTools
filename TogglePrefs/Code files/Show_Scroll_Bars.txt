@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_Scroll_Bars;
+BEGIN
+SetPref(7, NOT GetPref(7));
+END;
+Run (toggle_pref_Show_Scroll_Bars);

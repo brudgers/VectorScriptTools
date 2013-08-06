@@ -1,0 +1,5 @@
+Procedure toggle_pref_Palette_Docking;
+BEGIN
+SetPref(43, NOT GetPref(43));
+END;
+Run (toggle_pref_Palette_Docking);

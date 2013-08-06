@@ -1,0 +1,5 @@
+PROCEDURE menu_Compose_Curve;
+BEGIN
+DoMenuTextByName ('Compose Curve',0);
+END;
+RUN (menu_Compose_Curve);

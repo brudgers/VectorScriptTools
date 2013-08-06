@@ -1,0 +1,5 @@
+PROCEDURE menu_Rotate;
+BEGIN
+DoMenuTextByName ('Rotate',0);
+END;
+RUN (menu_Rotate);

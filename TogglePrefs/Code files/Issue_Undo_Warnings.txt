@@ -1,0 +1,5 @@
+Procedure toggle_pref_Issue_Undo_Warnings;
+BEGIN
+SetPref(19, NOT GetPref(19));
+END;
+Run (toggle_pref_Issue_Undo_Warnings);

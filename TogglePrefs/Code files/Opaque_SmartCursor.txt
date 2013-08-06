@@ -1,0 +1,5 @@
+Procedure toggle_pref_Opaque_SmartCursor;
+BEGIN
+SetPref(20, NOT GetPref(20));
+END;
+Run (toggle_pref_Opaque_SmartCursor);

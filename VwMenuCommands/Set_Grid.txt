@@ -1,0 +1,5 @@
+PROCEDURE menu_Set_Grid;
+BEGIN
+DoMenuTextByName ('Set Grid',0);
+END;
+RUN (menu_Set_Grid);

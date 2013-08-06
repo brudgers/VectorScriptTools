@@ -1,0 +1,5 @@
+PROCEDURE menu_Sweep_and_Edit;
+BEGIN
+DoMenuTextByName ('Sweep and Edit',0);
+END;
+RUN (menu_Sweep_and_Edit);

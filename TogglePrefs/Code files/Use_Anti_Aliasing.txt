@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Anti_Aliasing;
+BEGIN
+SetPref(133, NOT GetPref(133));
+END;
+Run (toggle_pref_Use_Anti_Aliasing);

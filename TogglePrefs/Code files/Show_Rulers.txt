@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_Rulers;
+BEGIN
+SetPref(6, NOT GetPref(6));
+END;
+Run (toggle_pref_Show_Rulers);

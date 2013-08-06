@@ -1,0 +1,5 @@
+PROCEDURE menu_Export_EPSF;
+BEGIN
+DoMenuTextByName ('Export EPSF',0);
+END;
+RUN (menu_Export_EPSF);

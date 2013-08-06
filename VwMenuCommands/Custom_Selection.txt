@@ -1,0 +1,5 @@
+PROCEDURE menu_Custom_Selection;
+BEGIN
+DoMenuTextByName ('Custom Selection',0);
+END;
+RUN (menu_Custom_Selection);

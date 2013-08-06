@@ -1,0 +1,5 @@
+PROCEDURE menu_UPPER_CASE;
+BEGIN
+DoMenuTextByName ('UPPER CASE',0);
+END;
+RUN (menu_UPPER_CASE);

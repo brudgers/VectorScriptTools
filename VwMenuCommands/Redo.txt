@@ -1,0 +1,5 @@
+PROCEDURE menu_Redo;
+BEGIN
+DoMenuTextByName ('Redo',0);
+END;
+RUN (menu_Redo);

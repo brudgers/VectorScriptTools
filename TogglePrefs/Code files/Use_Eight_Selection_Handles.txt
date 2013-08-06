@@ -1,0 +1,5 @@
+Procedure toggle_pref_Use_Eight_Selection_Handles;
+BEGIN
+SetPref(17, NOT GetPref(17));
+END;
+Run (toggle_pref_Use_Eight_Selection_Handles);

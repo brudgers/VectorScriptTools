@@ -1,0 +1,5 @@
+procedure doing;
+begin
+domenutextbyname ('polygon render chunk', 2);
+end;
+run (doing);

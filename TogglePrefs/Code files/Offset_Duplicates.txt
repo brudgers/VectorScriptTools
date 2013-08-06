@@ -1,0 +1,5 @@
+Procedure toggle_pref_Offset_Duplicates;
+BEGIN
+SetPref(1, NOT GetPref(1));
+END;
+Run (toggle_pref_Offset_Duplicates);

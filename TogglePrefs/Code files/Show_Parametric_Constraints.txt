@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_Parametric_Constraints;
+BEGIN
+SetPref(25, NOT GetPref(25));
+END;
+Run (toggle_pref_Show_Parametric_Constraints);

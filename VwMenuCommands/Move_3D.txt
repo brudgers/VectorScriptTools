@@ -1,0 +1,5 @@
+PROCEDURE menu_Move_3D;
+BEGIN
+DoMenuTextByName ('Move 3D',0);
+END;
+RUN (menu_Move_3D);

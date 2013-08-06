@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_3D_Axis_Labels;
+BEGIN
+SetPref(15, NOT GetPref(15));
+END;
+Run (toggle_pref_Show_3D_Axis_Labels);

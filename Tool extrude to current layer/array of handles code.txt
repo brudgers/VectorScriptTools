@@ -1,0 +1,38 @@
+PROCEDURE super;
+
+   VAR
+      index : integer;
+	handleBin:ARRAY[1..1000] of HANDLE;
+	Obj_class : string;
+	Start_class : string;
+	End;
+
+Procedure loadBin(h1:HANDLE);
+   Begin
+      index:=index+1;
+      handleBin[index]:=h1;
+   End;
+
+
+PROCEDURE change_it(objectHand:HANDLE);
+   Begin
+		dselectall;
+		obj_class := getclass (objectHand);
+		Nameclass (obj_class);
+		setselect (objectHand);
+		domenutextbyname ('extrude and edit', 0);
+	End;      
+
+BEGIN
+       Start_class := ActiveClass;  
+	index:=0;
+         ForEachObject(loadBin,sel=true);
+         index:=1;
+		 while handleBin[index] <> nil Do begin	
+			change_it (handleBin[index]);
+			index := index+1;
+		end;
+	Nameclass (Start_class);
+ 	End;
+Run (super);
+

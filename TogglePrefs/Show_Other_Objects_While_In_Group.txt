@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_Other_Objects_While_In_Group;
+BEGIN
+SetPref(14, NOT GetPref(14));
+END;
+Run (toggle_pref_Show_Other_Objects_While_In_Group);

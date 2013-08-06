@@ -1,0 +1,5 @@
+PROCEDURE menu_Align_to_Grid;
+BEGIN
+DoMenuTextByName ('Align to Grid',0);
+END;
+RUN (menu_Align_to_Grid);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Rotate_Working_Plane;
+BEGIN
+DoMenuTextByName ('Rotate Working Plane',0);
+END;
+RUN (menu_Rotate_Working_Plane);

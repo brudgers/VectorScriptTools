@@ -1,0 +1,5 @@
+PROCEDURE menu_Convert_Copy_to_Lines;
+BEGIN
+DoMenuTextByName ('Convert Copy to Lines',0);
+END;
+RUN (menu_Convert_Copy_to_Lines);

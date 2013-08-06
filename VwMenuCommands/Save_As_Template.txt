@@ -1,0 +1,5 @@
+PROCEDURE menu_Save_As_Template;
+BEGIN
+DoMenuTextByName ('Save As Template',0);
+END;
+RUN (menu_Save_As_Template);

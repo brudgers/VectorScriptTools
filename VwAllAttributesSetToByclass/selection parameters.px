@@ -1,0 +1,10 @@
+{REQUIRES Parameter select_mode}
+Procedure Selection_Parameters;
+
+Var
+	strVar : string;
+	
+Begin
+	strVar := Pselect_mode;
+	DoMenutextbyname (strVar, 0);
+End;

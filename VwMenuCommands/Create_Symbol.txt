@@ -1,0 +1,5 @@
+PROCEDURE menu_Create_Symbol;
+BEGIN
+DoMenuTextByName ('Create Symbol',0);
+END;
+RUN (menu_Create_Symbol);

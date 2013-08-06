@@ -1,0 +1,5 @@
+PROCEDURE menu_Create_Layer_Link;
+BEGIN
+DoMenuTextByName ('Create Layer Link',0);
+END;
+RUN (menu_Create_Layer_Link);

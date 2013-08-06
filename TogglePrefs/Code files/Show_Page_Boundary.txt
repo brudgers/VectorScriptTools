@@ -1,0 +1,5 @@
+Procedure toggle_pref_Show_Page_Boundary;
+BEGIN
+SetPref(49, NOT GetPref(49));
+END;
+Run (toggle_pref_Show_Page_Boundary);

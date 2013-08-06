@@ -1,0 +1,5 @@
+PROCEDURE menu_Convert_to_Polygons;
+BEGIN
+DoMenuTextByName ('Convert to Polygons',0);
+END;
+RUN (menu_Convert_to_Polygons);

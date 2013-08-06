@@ -1,0 +1,5 @@
+PROCEDURE menu_Combine_Into_Surface;
+BEGIN
+DoMenuTextByName ('Combine Into Surface',0);
+END;
+RUN (menu_Combine_Into_Surface);

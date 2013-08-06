@@ -1,0 +1,5 @@
+PROCEDURE menu_Export_Database;
+BEGIN
+DoMenuTextByName ('Export Database',0);
+END;
+RUN (menu_Export_Database);

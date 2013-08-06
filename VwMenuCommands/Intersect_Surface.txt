@@ -1,0 +1,5 @@
+PROCEDURE menu_Intersect_Surface;
+BEGIN
+DoMenuTextByName ('Intersect Surface',0);
+END;
+RUN (menu_Intersect_Surface);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Close;
+BEGIN
+DoMenuTextByName ('Close',0);
+END;
+RUN (menu_Close);

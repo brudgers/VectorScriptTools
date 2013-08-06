@@ -1,0 +1,5 @@
+Procedure toggle_pref_Snap_To_Object;
+BEGIN
+SetPref(38, NOT GetPref(38));
+END;
+Run (toggle_pref_Snap_To_Object);

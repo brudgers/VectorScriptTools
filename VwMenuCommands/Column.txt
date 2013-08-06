@@ -1,0 +1,5 @@
+PROCEDURE menu_Column;
+BEGIN
+DoMenuTextByName ('Column',0);
+END;
+RUN (menu_Column);

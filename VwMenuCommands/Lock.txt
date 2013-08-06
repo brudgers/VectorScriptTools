@@ -1,0 +1,5 @@
+PROCEDURE menu_Lock;
+BEGIN
+DoMenuTextByName ('Lock',0);
+END;
+RUN (menu_Lock);

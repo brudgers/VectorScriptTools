@@ -1,0 +1,5 @@
+PROCEDURE menu_Convert_To_NURBS;
+BEGIN
+DoMenuTextByName ('Convert To NURBS',0);
+END;
+RUN (menu_Convert_To_NURBS);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Export_Image_File;
+BEGIN
+DoMenuTextByName ('Export Image File',0);
+END;
+RUN (menu_Export_Image_File);

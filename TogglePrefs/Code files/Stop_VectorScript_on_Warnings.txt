@@ -1,0 +1,5 @@
+Procedure toggle_pref_Stop_VectorScript_on_Warnings;
+BEGIN
+SetPref(21, NOT GetPref(21));
+END;
+Run (toggle_pref_Stop_VectorScript_on_Warnings);

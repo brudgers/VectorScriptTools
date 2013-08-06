@@ -1,0 +1,5 @@
+PROCEDURE menu_Create_Report;
+BEGIN
+DoMenuTextByName ('Create Report',0);
+END;
+RUN (menu_Create_Report);

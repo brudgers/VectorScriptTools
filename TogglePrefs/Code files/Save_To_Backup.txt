@@ -1,0 +1,5 @@
+Procedure toggle_pref_Save_To_Backup;
+BEGIN
+SetPref(41, NOT GetPref(41));
+END;
+Run (toggle_pref_Save_To_Backup);

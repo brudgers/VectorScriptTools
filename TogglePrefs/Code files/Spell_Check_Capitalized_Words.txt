@@ -1,0 +1,5 @@
+Procedure toggle_pref_Spell_Check_Capitalized_Words;
+BEGIN
+SetPref(29, NOT GetPref(29));
+END;
+Run (toggle_pref_Spell_Check_Capitalized_Words);

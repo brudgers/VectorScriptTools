@@ -1,0 +1,5 @@
+PROCEDURE menu_Hatch;
+BEGIN
+DoMenuTextByName ('Hatch',0);
+END;
+RUN (menu_Hatch);

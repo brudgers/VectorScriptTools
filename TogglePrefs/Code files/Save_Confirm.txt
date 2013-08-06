@@ -1,0 +1,5 @@
+Procedure toggle_pref_Save_Confirm;
+BEGIN
+SetPref(40, NOT GetPref(40));
+END;
+Run (toggle_pref_Save_Confirm);

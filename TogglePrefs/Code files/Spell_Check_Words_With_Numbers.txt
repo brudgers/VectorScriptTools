@@ -1,0 +1,5 @@
+Procedure toggle_pref_Spell_Check_Words_With_Numbers;
+BEGIN
+SetPref(32, NOT GetPref(32));
+END;
+Run (toggle_pref_Spell_Check_Words_With_Numbers);

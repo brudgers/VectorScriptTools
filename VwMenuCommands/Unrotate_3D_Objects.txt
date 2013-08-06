@@ -1,0 +1,5 @@
+PROCEDURE menu_Unrotate_3D_Objects;
+BEGIN
+DoMenuTextByName ('Unrotate 3D Objects',0);
+END;
+RUN (menu_Unrotate_3D_Objects);

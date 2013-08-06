@@ -1,0 +1,5 @@
+PROCEDURE menu_Rotate_Right_90;
+BEGIN
+DoMenuTextByName ('Rotate Right 90',0);
+END;
+RUN (menu_Rotate_Right_90);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Decompose_Curve;
+BEGIN
+DoMenuTextByName ('Decompose Curve',0);
+END;
+RUN (menu_Decompose_Curve);

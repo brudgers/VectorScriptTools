@@ -1,0 +1,5 @@
+PROCEDURE menu_New;
+BEGIN
+DoMenuTextByName ('New',0);
+END;
+RUN (menu_New);

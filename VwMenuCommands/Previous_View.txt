@@ -1,0 +1,5 @@
+PROCEDURE menu_Previous_View;
+BEGIN
+DoMenuTextByName ('Previous View',0);
+END;
+RUN (menu_Previous_View);

@@ -1,0 +1,5 @@
+PROCEDURE menu_Set_3D_View;
+BEGIN
+DoMenuTextByName ('Set 3D View',0);
+END;
+RUN (menu_Set_3D_View);

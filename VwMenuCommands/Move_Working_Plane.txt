@@ -1,0 +1,5 @@
+PROCEDURE menu_Move_Working_Plane;
+BEGIN
+DoMenuTextByName ('Move Working Plane',0);
+END;
+RUN (menu_Move_Working_Plane);

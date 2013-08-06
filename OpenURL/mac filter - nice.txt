@@ -1,0 +1,31 @@
+Procedure Mac_filter;
+
+VAR
+appMajor, appMinor, appMaint, platform : integer;
+
+
+PROCEDURE microsoft_url;
+{////  Open microsoft.com  /////}
+VAR
+status : boolean;
+urlstring : string;
+Begin
+urlstring := 'http:\\www.microsoft.com';
+status:= OpenURL(urlstring);
+END;
+
+PROCEDURE bad_mac;
+BEGIN
+alrtdialog ('Tool not Mac Compatible');
+alrtdialog ('Ending Program');
+END;
+
+
+BEGIN
+GetVersion(appMajor, appMinor, appMaint, platform);
+		IF (platform = 1) 
+		THEN bad_mac
+		ELSE message('execute program');
+END;
+
+RUN (Mac_filter);
